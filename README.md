@@ -1,1 +1,1 @@
-Meu Portfólio Web, com meu projetos desenvolvido no curso da Trybe.
+Meu Portfólio Web, com meu projetos desenvolvidos no curso da Trybe.
