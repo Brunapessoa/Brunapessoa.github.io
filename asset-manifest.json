@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "//brunapessoa.github.io/static/css/main.73d06ac0.css",
-    "main.js": "//brunapessoa.github.io/static/js/main.6baca04d.js",
+    "main.js": "//brunapessoa.github.io/static/js/main.1cc85d67.js",
     "static/js/787.e31b216d.chunk.js": "//brunapessoa.github.io/static/js/787.e31b216d.chunk.js",
     "static/media/foto_principal.png": "//brunapessoa.github.io/static/media/foto_principal.422e43d524ad3562eeba.png",
     "index.html": "//brunapessoa.github.io/index.html",
     "main.73d06ac0.css.map": "//brunapessoa.github.io/static/css/main.73d06ac0.css.map",
-    "main.6baca04d.js.map": "//brunapessoa.github.io/static/js/main.6baca04d.js.map",
+    "main.1cc85d67.js.map": "//brunapessoa.github.io/static/js/main.1cc85d67.js.map",
     "787.e31b216d.chunk.js.map": "//brunapessoa.github.io/static/js/787.e31b216d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.73d06ac0.css",
-    "static/js/main.6baca04d.js"
+    "static/js/main.1cc85d67.js"
   ]
 }
