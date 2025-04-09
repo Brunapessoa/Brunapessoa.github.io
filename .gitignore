@@ -1,0 +1,19 @@
+# Ignora a pasta de configurações do VS Code
+.vscode/
+
+# Ignora arquivos de sistema do macOS
+.DS_Store
+
+# Ignora arquivos do Windows (Thumbs.db etc.)
+Thumbs.db
+
+# Ignora pastas de build (caso venha a usar futuramente)
+dist/
+build/
+
+# Ignora node_modules (se usar Node.js futuramente)
+node_modules/
+
+# Logs e temporários
+*.log
+*.tmp
