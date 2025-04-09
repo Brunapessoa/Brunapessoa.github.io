@@ -1,6 +1,9 @@
 # Ignora a pasta de configurações do VS Code
 .vscode/
 
+# Ignora imagens, não precisam subir para o GH
+.images/
+
 # Ignora arquivos de sistema do macOS
 .DS_Store
 
