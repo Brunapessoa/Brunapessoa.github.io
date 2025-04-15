@@ -2,31 +2,51 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', sans-serif;
-    background: linear-gradient(to bottom, #cac6c8, #f0bcca); */
-    /* background: linear-gradient(to bottom, #c9d6ff, #e9c5e6); */ */
+    background: linear-gradient(to bottom, #cac6c8, #f0bcca);
+    */
+    /* background: linear-gradient(to bottom, #c9d6ff, #e9c5e6); */
+    */
     /* background-image: linear-gradient(to bottom, rgb(158, 170, 226), rgb(209, 163, 223));
     font-family: Verdana, Geneva, Tahoma;
-    font-size: 20px;
-    color: rgb(67, 27, 85); */
+    font-size: 20px; */
+    color: #2e003e;
+    text-align: center;
 }
 
 .container {
-    max-width: 800px;
-    margin: 0 auto;
+    max-width: 700px;
+    margin: auto;
     padding: 40px 20px;
-  }
+}
+
+.myphoto {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    /* justify-content: center; */
+    /*align-items: center;
+    /* height: auto; */
+    object-fit: cover;
+    margin-bottom: 20px;
+    /* border: 30px solid #fff; */
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+    margin-left: 20px;
+    margin-top: 60px;
+    /* aumenta a distância entre o texto e a imagem */
+}
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     /* flex-wrap: wrap; */
-/*    gap: 40px; /* Novo: separa o texto da imagem */
-    padding: 40px; 
-    padding-bottom: 60px; /* Novo: distância entre header e conteúdo */
+    /*    gap: 40px; /* Novo: separa o texto da imagem */
+    padding: 40px;
+    padding-bottom: 60px;
+    /* Novo: distância entre header e conteúdo */
 }
 
-.header h1 {
+h1 {
     margin: 0;
     font-size: 2.5rem;
     font-weight: bold;
@@ -37,21 +57,11 @@ body {
     color: #2e003e;
 }
 
-.myphoto {
-    border-radius: 50%;
-    width: 220px;
-    height: 220px;
-    /* justify-content: center; */
-    /*align-items: center;
-    /* height: auto; */
-    /* object-fit: cover; */
-    margin-bottom: 20px;
-    margin-bottom: 20px;
-    border: 30px solid #2e003e #fff;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
-    margin-left: 20px;
-    margin-top: 60px;
-    /* aumenta a distância entre o texto e a imagem */
+h2 {
+    font-size: 1.4rem;
+    margin-top: 8px;
+    margin-bottom: 30px;
+    color: #4e1d6d;
 }
 
 /* h1 {
@@ -70,17 +80,41 @@ body {
     color: #2e003e;
 }
 
-#aboutme {
-    /* border: 50px;  */
-    /* margin: 200px; */
-    border-radius: 5%;
-    font-size: large;
-    /* background-color: aliceblue; */
-    /* opacity: 50%; */
-    border: 50px solid #2e003e #fff;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
-    margin-left: 10px;
-} 
+.card {
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 15px;
+    padding: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.card h3 {
+    margin-top: 0;
+    color: #471d57;
+}
+
+.card ul,
+.card ol {
+    padding-left: 20px;
+}
+
+.card a {
+    color: #4e1d6d;
+    text-decoration: none;
+}
+
+/* #aboutme { */
+/* border: 50px;  */
+/* margin: 200px; */
+/* border-radius: 5%; */
+/* font-size: large; */
+/* background-color: aliceblue; */
+/* opacity: 50%; */
+/* border: 50px solid #2e003e #fff; */
+/* box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2); */
+/* margin-left: 10px; */
+/* }  */
 
 /* border-radius: 40%;
     margin: 80px;
@@ -89,13 +123,13 @@ body {
 
 .content h2,
 .content h3 {
-  margin-top: 30px;
-  color: #471d57;
+    margin-top: 30px;
+    color: #471d57;
 }
 
 .content ul,
 .content ol {
-  padding-left: 20px;
+    padding-left: 20px;
 }
 
 .content a {
