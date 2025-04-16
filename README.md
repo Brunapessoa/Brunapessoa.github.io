@@ -1,2 +1,2 @@
 # portfolio
-This repository is my new Portfolio, where I´ve been practcing the skils that, I´m sdudying.  
+This repository contains my new portfolio, where I've been practicing the skills I'm studying.

@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    /* background: linear-gradient(to bottom, #cac6c8, #f0bcca); */
+    */
+    background: linear-gradient(to bottom, #c9d6ff, #e9c5e6);
+    background-image: linear-gradient(to bottom, rgb(175, 188, 240), rgb(247, 224, 212));
+    /* font-family: Verdana, Geneva, Tahoma; */
+    /* font-size: 20px; */ */
+}
+
+.container {
+    max-width: 700px;
+    padding: 40px 20px;
+}
+
+.myphoto {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    justify-content:space-between;
+    align-items:flex-start
+    /* height: auto; */
+    object-fit: cover;
+    margin-bottom: 20px;
+    /* border: 30px solid #fff; */
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+    margin-top: 60px;
+    /* aumenta a distância entre o texto e a imagem */
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    flex: 1;
+    text-align: center;
+    margin-top: 100px;
+    color: #2e003e;
+    margin-left: 100px;
+}
+
+h2 {
+    font-size: 1.4rem;
+    margin-top: 8px;
+    margin-bottom: 30px;
+    color: #4e1d6d;
+}
+
+#aboutme {
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 15px;
+    padding: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    margin-left: 100px;
+}
+
+h3 {
+    font-size: 1.4rem;
+    margin-top: 8px;
+    margin-bottom: 30px;
+    color: #4e1d6d;
+}
+
+#links {
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 15px;
+    padding: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    padding-left: 20px;
+    margin-left: 100px;
+}
+
+#learning {
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 15px;
+    padding: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    padding-left: 20px;
+    margin-left: 100px;
+}
+
+.card a {
+    color: #4e1d6d;
+    text-decoration: none;
+}
+
+footer {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 0.9rem;
+    opacity: 50%;
+}
