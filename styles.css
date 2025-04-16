@@ -5,17 +5,13 @@ body {
     /* background: linear-gradient(to bottom, #cac6c8, #f0bcca); */
     */
     background: linear-gradient(to bottom, #c9d6ff, #e9c5e6);
-    
-    background-image: linear-gradient(to bottom, rgb(175, 188, 240), rgb(245, 205, 184));
+    background-image: linear-gradient(to bottom, rgb(175, 188, 240), rgb(247, 224, 212));
     /* font-family: Verdana, Geneva, Tahoma; */
     /* font-size: 20px; */ */
-    color: #2e003e;
-    text-align: center;
 }
 
 .container {
     max-width: 700px;
-    margin: auto;
     padding: 40px 20px;
 }
 
@@ -23,27 +19,25 @@ body {
     width: 220px;
     height: 220px;
     border-radius: 50%;
-    /* justify-content: center; */
-    /*align-items: center;
+    justify-content:space-between;
+    align-items:flex-start
     /* height: auto; */
     object-fit: cover;
     margin-bottom: 20px;
     /* border: 30px solid #fff; */
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
-    margin-left: 20px;
     margin-top: 60px;
     /* aumenta a distância entre o texto e a imagem */
 }
 
 h1 {
-    margin: 0;
     font-size: 2.5rem;
     font-weight: bold;
     flex: 1;
-    margin: 0;
+    text-align: center;
     margin-top: 100px;
-    text-align: left;
     color: #2e003e;
+    margin-left: 100px;
 }
 
 h2 {
@@ -60,6 +54,7 @@ h2 {
     margin-bottom: 25px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     text-align: left;
+    margin-left: 100px;
 }
 
 h3 {
@@ -77,7 +72,9 @@ h3 {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     text-align: left;
     padding-left: 20px;
+    margin-left: 100px;
 }
+
 #learning {
     background-color: rgba(255, 255, 255, 0.4);
     border-radius: 15px;
@@ -86,6 +83,7 @@ h3 {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     text-align: left;
     padding-left: 20px;
+    margin-left: 100px;
 }
 
 .card a {
@@ -94,7 +92,8 @@ h3 {
 }
 
 footer {
-    margin-top: 50px;
+    margin-top: 10px;
+    margin-bottom: 25px;
     text-align: center;
     font-size: 0.9rem;
     opacity: 50%;
