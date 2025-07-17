@@ -1,13 +1,7 @@
 body {
-    margin: 0;
-    padding: 0;
     font-family: 'Segoe UI', sans-serif;
-    /* background: linear-gradient(to bottom, #cac6c8, #f0bcca); */
-    */
-    background: linear-gradient(to bottom, #c9d6ff, #e9c5e6);
-    background-image: linear-gradient(to bottom, rgb(175, 188, 240), rgb(247, 224, 212));
-    /* font-family: Verdana, Geneva, Tahoma; */
-    /* font-size: 20px; */ */
+    background-image: linear-gradient(45deg, rgba(0, 51, 255, 0.212), rgba(255, 60, 0, 0.253));
+    background-attachment: fixed;
 }
 
 .container {
@@ -18,11 +12,12 @@ body {
 .myphoto {
     width: 220px;
     height: 220px;
+
     border-radius: 50%;
-    justify-content:space-between;
-    align-items:flex-start
-    /* height: auto; */
-    object-fit: cover;
+    justify-content: space-between;
+    align-items: flex-start
+        /* height: auto; */
+        object-fit: cover;
     margin-bottom: 20px;
     /* border: 30px solid #fff; */
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
