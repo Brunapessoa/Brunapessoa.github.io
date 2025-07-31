@@ -1,60 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Segoe UI', sans-serif;
-    /* background: linear-gradient(to bottom, #cac6c8, #f0bcca); */
-    */
-    background: linear-gradient(to bottom, #c9d6ff, #e9c5e6);
-    background-image: linear-gradient(to bottom, rgb(175, 188, 240), rgb(247, 224, 212));
-    /* font-family: Verdana, Geneva, Tahoma; */
-    /* font-size: 20px; */ */
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(45deg, rgba(0, 51, 255, 0.212), rgba(255, 60, 0, 0.253));
+    background-attachment: fixed;
 }
 
-.container {
-    max-width: 700px;
-    padding: 40px 20px;
-}
-
-.myphoto {
-    width: 220px;
-    height: 220px;
-    border-radius: 50%;
-    justify-content:space-between;
-    align-items:flex-start
-    /* height: auto; */
-    object-fit: cover;
-    margin-bottom: 20px;
-    /* border: 30px solid #fff; */
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
-    margin-top: 60px;
-    /* aumenta a distância entre o texto e a imagem */
+header{
+    background-color: rgba(255, 255, 255, 0.295);
+    padding: 10px;
 }
 
 h1 {
-    font-size: 2.5rem;
-    font-weight: bold;
-    flex: 1;
     text-align: center;
-    margin-top: 100px;
     color: #2e003e;
-    margin-left: 100px;
+    margin: 50px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.301);
+}
+nav{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.295);
+    padding: 8px;
+    
+}
+
+nav > a {
+    text-decoration: none;
+    padding: 8px;
+    color: #2e003e;
+}
+
+nav > a:hover {
+    background-color:  rgba(247, 192, 175, 0.445);
+    border-radius: 10px;
 }
 
 h2 {
-    font-size: 1.4rem;
-    margin-top: 8px;
-    margin-bottom: 30px;
     color: #4e1d6d;
 }
 
-#aboutme {
-    background-color: rgba(255, 255, 255, 0.4);
-    border-radius: 15px;
-    padding: 25px;
-    margin-bottom: 25px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    text-align: left;
-    margin-left: 100px;
+#about-container{
+    background-color: rgba(255, 255, 255, 0.295);
+    border-radius: 10px;
+    margin: 30px 40px;
+    padding: 20px;
+}
+
+p{
+    text-align: justify;
+    margin: 20px;
+    padding: 20px;
 }
 
 h3 {
@@ -64,37 +62,49 @@ h3 {
     color: #4e1d6d;
 }
 
-#links {
-    background-color: rgba(255, 255, 255, 0.4);
-    border-radius: 15px;
-    padding: 25px;
-    margin-bottom: 25px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    text-align: left;
-    padding-left: 20px;
-    margin-left: 100px;
+#projects{
+    margin: 30px 40px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.295);
+    border-radius: 10px;
 }
 
-#learning {
-    background-color: rgba(255, 255, 255, 0.4);
-    border-radius: 15px;
-    padding: 25px;
-    margin-bottom: 25px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    text-align: left;
-    padding-left: 20px;
-    margin-left: 100px;
+#projects > ul{
+    margin: 0px 20px;
+    padding: 10px 20px;
 }
 
-.card a {
-    color: #4e1d6d;
-    text-decoration: none;
+#learning{
+    margin: 30px 40px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.295);
+    border-radius: 10px;
+}
+
+#learning > ul{
+    margin: 0px 20px;
+    padding: 10px 20px;
+}
+
+aside{
+    margin: 30px 40px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.295);
+    border-radius: 10px;
+}
+
+aside > ul{
+    margin: 0px 20px;
+    padding: 10px 20px;
 }
 
 footer {
-    margin-top: 10px;
-    margin-bottom: 25px;
+    color: rgba(73, 72, 72, 0.76);
+    background-color: rgba(59, 99, 255, 0.123);
+}
+
+footer > p {
     text-align: center;
-    font-size: 0.9rem;
-    opacity: 50%;
+    margin: 0px;
+    padding: 2px;
 }
