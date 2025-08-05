@@ -5,7 +5,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-image: linear-gradient(45deg, rgba(53, 5, 141, 0.404), rgba(255, 60, 0, 0.253));
+    background-image: linear-gradient(45deg, rgba(47, 1, 131, 0.404), rgba(187, 44, 1, 0.404));
     background-attachment: fixed;
 }
 
@@ -22,8 +22,8 @@ button{
 }
 
 nav > button:hover {
-    background-color: rgba(245, 136, 103, 0.308);
-    border-radius: 10px;
+    background-color: rgba(187, 44, 1, 0.404);
+    border-radius: 5px;
 }
 
 header{
@@ -33,9 +33,9 @@ header{
 
 h1 {
     text-align: center;
-    color: #2e003e;
+    color: #290036;
     margin: 22px auto 40px auto;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.301);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.233);
 }
 
 nav{
@@ -52,12 +52,17 @@ nav > a {
 }
 
 nav > a:hover {
-    background-color:  rgba(245, 166, 142, 0.445);
+    background-color:  rgba(187, 44, 1, 0.267);
     border-radius: 10px;
 }
 
+main{
+    padding: 0px 30px 30px 30px;
+    margin: auto 60px 10px 60px;
+}
 h2 {
     color: #4e1d6d;
+
 }
 
 #about-container{
@@ -96,13 +101,21 @@ h3 {
     color: #4e1d6d;
 }
 
-
 #skills{
     margin: 30px 40px;
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.37);
     border-radius: 10px;
     box-shadow: 2px 2px 20px 1px #0000004a;
+}
+
+.skillsIcons{
+    padding: 0px 8px;
+    width: 45px;
+}
+
+.abbrTag{
+    background-color: rgba(255, 255, 255, 0.37);
 }
 
 #projects{
@@ -177,12 +190,13 @@ aside > ul{
 }
 
 footer {
-    color: rgba(37, 37, 37, 0.685);
-    background-color:  rgba(72, 36, 139, 0.158);
+    color: rgba(24, 22, 22, 0.685);
+    background-color: rgba(47, 1, 131, 0.137);
+    margin-bottom: 5px;
 }
 
 footer > p {
     text-align: center;
     margin: 0px;
-    padding: 2px;
+    padding: 5px;
 }
