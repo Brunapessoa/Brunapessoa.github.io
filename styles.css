@@ -34,9 +34,10 @@ header{
 h1 {
     text-align: center;
     color: #2e003e;
-    margin: 22px auto 30px auto;
+    margin: 22px auto 40px auto;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.301);
 }
+
 nav{
     text-align: center;
     background-color: rgba(255, 255, 255, 0.37);
@@ -117,8 +118,13 @@ h3 {
     padding: 10px 20px;
 }
 
-.project-txt {
+.name-project {
     text-align: center;
+}
+
+#androidPage{
+    margin: 0px auto 10px auto;
+    padding: 0px auto 10px auto;
 }
 
 .project-txt > p{
@@ -126,12 +132,17 @@ h3 {
     padding: 10px;
 }
 
-.project-card{
+.project-card > p{
     display: inline;
 }
 
 .project-card:hover{
     text-decoration: underline;
+}
+
+p#androidPage{
+    margin: 0px auto 20px auto;
+    padding: 10px auto 20px auto;
 }
 
 #learning{
@@ -142,9 +153,14 @@ h3 {
     box-shadow: 2px 2px 20px 1px #0000004a;
 }
 
+
 #learning > ul{
     margin: 0px 20px;
     padding: 10px 20px;
+}
+
+#learning ul ul {
+    margin-left: 20px;
 }
 
 aside{

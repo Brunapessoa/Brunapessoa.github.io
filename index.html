@@ -11,24 +11,25 @@
 
 <body>
     <nav id="bt-languages">
-        <button onclick=""> &#x1F1E7&#x1F1F7 </button>
-        <button onclick=""> &#x1F1EC&#x1F1E7 </button>
-        <button onclick=""> &#x1F1F3&#x1F1F1 </button>
+        <button type="button" id="portugues-br" onclick="updatePtbr()"> &#x1F1E7&#x1F1F7 </button>
+        <button type="button" id="english" onclick="updateEng()"> &#x1F1EC&#x1F1E7 </button>
+        <button type="button" id="nederland" onclick="updateNl()"> &#x1F1F3&#x1F1F1 </button>
     </nav>
     <header>
-        <h1>Bruna Pessoa <br> Front-end Software Developer</h1>
+        <h1>Bruna Pessoa<br>
+            <span id="title">Front-end Software Developer</span>
+        </h1>
     </header>
     <nav>
-        <a href="#">About me</a>
-        <a href="#">Skills</a>
-        <a href="#">Projects</a>
-        <a href="#">Learning</a>
-        <a href="#">Network</a>
+        <a href="#" class="aboutMe">About me</a>
+        <a href="#" class="skills">Skills</a>
+        <a href="#" class="projects">Projects</a>
+        <a href="#" class="courses">Courses</a>
+        <a href="#" class="network">Network</a>
     </nav>
     <main>
-
         <div id="about-container">
-            <h2>About me</h2>
+            <h2 class="aboutMe">About me</h2>
             <div id="about-txt">
                 <p>
                     I'm a Brazilian citizen, living in Eindhoven since April 2023. During this period, I have been
@@ -45,65 +46,69 @@
         <div>
         </div>
         <div id="skills">
-            <h3>Languages and Frameworks</h3>
+            <h2 class="skills">Skills</h2>
             <img src="images/html5-200.png" alt="html-logo" width="40px">
             <img src="images/css3-200.png" alt="css-logo" width="40px">
             <img src="images/javascript.svg" alt="js-logo" width="45px">
             <img src="#" alt="react-logo">
             <img src="#" alt="redux-logo">
         </div>
-            <div id="projects">
-                <h2>Projects</h2>
-                <p>You can acess my project's pages:</p>
-                <ul type="none">
-                    <li>
-                        <div class="project-card">
-                            <!-- para adicionar os projetos assim, precisa fazer o github pages no projeto publico -->
-                            <a href="https://brunapessoa.github.io/Android-page-project/" target="_blank"><img
-                                    src="images/projects/android-page.png" alt="android-page" width="250px"></a><span
-                                class="project-txt">
-                                <p>Android Page</p>
-                            </span>
-                            </a>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="project-card">
-                            <a href="#" target="_blank"><img src="images/projects/image-teste.png" alt="imagem-teste"
-                                    width="250px"><span class="project-txt">
-                                    <p>Project 2</p>
-                                </span></a>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="project-card">
-                            <a href="#" target="_blank"><img src="images/projects/image-teste.png" alt="imagem-teste"
-                                    width="250px"><span class="project-txt">
-                                    <p>Project 3</p>
-                                </span></a>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="project-card">
-                            <a href="#" target="_blank"><img src="images/projects/image-teste.png" alt="imagem-teste"
-                                    width="250px"><span class="project-txt">
-                                    <p>Project 4</p>
-                                </span></a>
-                        </div>
-                    </li>
-                </ul>
-            
-            </div>
-        <div id="learning">
-            <h3>Learning Platforms:</h3>
-            <ul>
-                <li>Trybe - Technology School</li>
-                <li>SheCodes: Coding workshops for women</li>
-                <li>Curso em Vídeo by Gustavo Guanabara</li>
+        <div id="projects">
+            <h2 class="projects">Projects</h2>
+            <p id="projectsTxt">You can acess my project's pages:</p>
+            <ul type="none">
+                <li>
+                    <div class="project-card">
+                        <!-- para adicionar os projetos assim, precisa fazer o github pages no projeto publico -->
+                        <a href="https://brunapessoa.github.io/Android-page-project/" target="_blank"><img
+                                src="images/projects/android-page.png" alt="android-page" width="250px"></a><span
+                            class="name-project">
+                            <p id="androidPage">Android Page</p>
+                        </span>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="project-card">
+                        <a href="#" target="_blank"><img src="images/projects/image-teste.png" alt="imagem-teste"
+                                width="250px"><span class="project-txt">
+                                <p>Project 2</p>
+                            </span></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="project-card">
+                        <a href="#" target="_blank"><img src="images/projects/image-teste.png" alt="imagem-teste"
+                                width="250px"><span class="project-txt">
+                                <p>Project 3</p>
+                            </span></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="project-card">
+                        <a href="#" target="_blank"><img src="images/projects/image-teste.png" alt="imagem-teste"
+                                width="250px"><span class="project-txt">
+                                <p>Project 4</p>
+                            </span></a>
+                    </div>
+                </li>
             </ul>
+
+        </div>
+        <div id="learning">
+            <h3 class="courses">Courses</h3>
+            <ul id="coursesTxt">
+                <li>Trybe - Technology School</li>
+                <li>Curso em Vídeo by Gustavo Guanabara:
+                    <ul>
+                        <li>Module: HTML5 & CSS3</li>
+                        <li>Module: JavaScript</li>
+                    </ul>
+                </li>
+            </ul> 
         </div>
         <aside>
-            <h3>My social network:</h3>
+            <h3 class="network">Network</h3>
             <ul>
                 <li><a href="https://www.linkedin.com/in/bruna-pessoa-machado-dev" target="_blank" rel="external">
                         LinkedIn</a></li>
@@ -113,9 +118,9 @@
         </aside>
     </main>
     <footer>
-        <p>Bruna Pessoa Machado - Software Developer</p>
+        <p id="footerTxt">Bruna Pessoa Machado - Software Developer</p>
     </footer>
+    <script type="module" src="script.js"></script>
 </body>
-<script src="script.js"></script>
 
 </html>
