@@ -28,7 +28,7 @@
         <a href="#network" class="network">Network</a>
     </nav>
     <main>
-        <div id="about-container">
+        <section id="about-container">
             <h2 class="aboutMe">About me</h2>
             <div id="about-txt">
                 <p>
@@ -40,12 +40,13 @@
                     enable me to enter the technology market. So far, programming languages and frameworks such as HTML,
                     CSS, JavaScript have been studied.
                 </p>
-                <img src="images/foto_principal.png" alt="profile-photo" width="250px" id="img-profile">
             </div>
-        </div>
+        </section>
         <div>
+            <img src="images/foto_principal.png" alt="profile-photo" width="250px" id="img-profile">
         </div>
-        <div id="skills">
+
+        <section id="skills">
             <h2 class="skills">Skills</h2>
             <div>
                 <p>
@@ -57,55 +58,45 @@
                     <abbr title="Redux"><img src="images/redux.png" alt="redux-logo" class="skillsIcons"></abbr>
                 </p>
             </div>
-        </div>
-        <div id="projects">
+        </section>
+
+        <section id="projects">
             <h2 class="projects">Projects</h2>
             <p id="projectsTxt">You can acess my project's pages:</p>
             <ul type="none">
-                <li>
-                    <div class="project-card">
+                <li class="project-card">
                         <!-- para adicionar os projetos assim, precisa fazer o github pages no projeto publico -->
                         <a href="https://brunapessoa.github.io/Android-page-project/" target="_blank"><img
-                                src="images/projects/android-page.png" alt="android-page" width="250px"></a><span
-                            class="name-project">
-                            <p id="androidPage">Android Page</p>
+                                src="images/projects/android-page.png" alt="android-page" width="250px"><span
+                                class="name-project">
+                                <p>Android Page</p></a>
                         </span>
                         </a>
-                    </div>
-                    <div>
-                        <a href="https://brunapessoa.github.io/cordel-project/"><span class="name-project">
-                                <p id="cordel-project">Modern Cordel</p>
-                            </span></a>
-                    </div>
                 </li>
-                <li>
-                    <div class="project-card">
-                        <a href="#" target="_blank"><img src="images/projects/image-teste.png" alt="imagem-teste"
-                                width="250px"><span class="project-txt">
-                                <p>Project 2</p>
-                            </span></a>
-                    </div>
+                <li class="project-card">
+                        <a href="https://brunapessoa.github.io/cordel-project/" target="_blank"><img
+                                src="images/projects/image-teste.png" alt="teste" width="250px"><span
+                                class="name-project">
+                                <p>Cordel Project</p></a>
                 </li>
-                <li>
-                    <div class="project-card">
-                        <a href="#" target="_blank"><img src="images/projects/image-teste.png" alt="imagem-teste"
-                                width="250px"><span class="project-txt">
-                                <p>Project 3</p>
-                            </span></a>
-                    </div>
+                <li class="project-card">
+                        <a href="#" target="_blank"><img src="images/projects/image-teste.png" alt="teste"
+                                width="250px"><span class="name-project">
+                                <p>Project 3</p></a>
                 </li>
-                <li>
-                    <div class="project-card">
-                        <a href="#" target="_blank"><img src="images/projects/image-teste.png" alt="imagem-teste"
-                                width="250px"><span class="project-txt">
-                                <p>Project 4</p>
-                            </span></a>
-                    </div>
+                <li class="project-card">
+                        <a href="#" target="_blank"><img src="images/projects/image-teste.png" alt="teste"
+                                width="250px"><span class="name-project">
+                                <p>Project 4</p></a>
+                </li>
+                <li class="project-card">
+                        <a href="#" target="_blank"><img src="images/projects/image-teste.png" alt="teste"
+                                width="250px"><span class="name-project">
+                                <p>Project 5</p></a>
                 </li>
             </ul>
-
-        </div>
-        <div id="learning">
+        </section>
+        <section id="learning">
             <h3 class="courses">Courses</h3>
             <ul id="coursesTxt">
                 <li>Trybe - Technology School</li>
@@ -116,7 +107,7 @@
                     </ul>
                 </li>
             </ul>
-        </div>
+        </section>
         <aside id="network">
             <h3 class="network">Network</h3>
             <ul>
