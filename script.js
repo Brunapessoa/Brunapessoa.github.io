@@ -105,10 +105,6 @@ function updateNl(){
     coursesTxt.innerHTML = content.coursesTxtNl
     
     footerTxt.innerHTML = content.footerNl
-
-    console.log('Clicou em holandes');
-    
-
 }
 
 window.updatePtbr = updatePtbr;

@@ -25,7 +25,7 @@ export const projectsEng = 'Projects'
 export const coursesEng = 'Courses'
 export const networkEng = 'Network'
 
-export const aboutTxtEng = "<p>I'm a Brazilian citizen, living in Eindhoven since April 2023. During this period, I have been dedicated to improving my English and have recently started studying Dutch to facilitate our integration into the Netherlands.</p><p>Currently studying Web Development, learning and improving hard skills that will enable me to enter the technology market. So far, programming languages and frameworks such as HTML, CSS, JavaScript have been studied.</p>"
+export const aboutTxtEng = "<p>I'm a Brazilian citizen, living in Eindhoven since April 2023. During this period, I have been dedicated to improving my English and have recently started studying Dutch to facilitate our integration into the Netherlands.</p><p>Currently studying <strong>Web Development</strong>, learning and improving hard skills that will enable me to enter the technology market. So far, programming languages and frameworks such as HTML, CSS, JavaScript have been studied.</p>"
 
 export const projectsTxtEng = 'You can acess my projects`s  pages:'
 

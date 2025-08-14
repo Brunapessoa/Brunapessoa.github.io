@@ -1,11 +1,6 @@
-*{
-    margin: 0px;
-    padding: 0px;
-}
-
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-image: linear-gradient(45deg, rgba(47, 1, 131, 0.404), rgba(187, 44, 1, 0.404));
+    background-image: linear-gradient(45deg, rgba(138, 32, 0, 0.479), rgba(47, 1, 131, 0.404), rgba(1, 21, 131, 0.404));
     background-attachment: fixed;
 }
 
@@ -22,7 +17,7 @@ button{
 }
 
 nav > button:hover {
-    background-color: rgba(187, 44, 1, 0.404);
+    background-color: rgba(1, 21, 131, 0.404);
     border-radius: 5px;
 }
 
@@ -58,7 +53,11 @@ nav > a:hover {
 
 main{
     padding: 0px 30px 30px 30px;
-    margin: auto 60px 10px 60px;
+    margin: auto 60px auto 60px;
+    border: 3px solid darkblue;
+ 
+    
+    position: relative;/* para configurar a posicao da imagem */
 }
 h2 {
     color: #4e1d6d;
@@ -68,9 +67,11 @@ h2 {
 #about-container{
     background-color: rgba(255, 255, 255, 0.37);
     border-radius: 10px;
-    margin: 30px 40px;
+    margin: 30px 200px;
     padding: 20px;
     box-shadow: 2px 2px 20px 1px #0000004a;
+
+    max-width: 900px;
 }
 
 #about-txt > p{
@@ -81,6 +82,12 @@ h2 {
     border-radius: 10px;
     margin: 30px 40px;
     box-shadow: 2px 2px 20px 1px #0000004a;
+
+    position: absolute;
+
+    left: 70%;
+    top: 5%;
+
 }
 
 #languages > img{
@@ -102,11 +109,12 @@ h3 {
 }
 
 #skills{
-    margin: 30px 40px;
+    margin: 30px 200px;
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.37);
     border-radius: 10px;
     box-shadow: 2px 2px 20px 1px #0000004a;
+    max-width: 900px;
 }
 
 .skillsIcons{
@@ -119,11 +127,12 @@ h3 {
 }
 
 #projects{
-    margin: 30px 40px;
+    margin: 30px auto;
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.37);
     border-radius: 10px;
     box-shadow: 2px 2px 20px 1px #0000004a;
+    max-width: 1200px;
 }
 
 #projects > ul{
@@ -154,16 +163,18 @@ h3 {
 }
 
 p#androidPage{
-    margin: 0px auto 20px auto;
+    margin: 10px auto 20px auto;
     padding: 10px auto 20px auto;
 }
 
 #learning{
-    margin: 30px 40px;
+    margin: 30px 200px;
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.37);
     border-radius: 10px;
     box-shadow: 2px 2px 20px 1px #0000004a;
+
+    max-width: 750px;
 }
 
 
@@ -177,16 +188,21 @@ p#androidPage{
 }
 
 aside{
-    margin: 30px 40px;
+    margin: 30px auto;
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.37);
     border-radius: 10px;
     box-shadow: 2px 2px 20px 1px #0000004a;
+    max-width: 400px;
+    
+
 }
 
 aside > ul{
     margin: 0px 20px;
     padding: 10px 20px;
+
+    
 }
 
 footer {
