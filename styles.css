@@ -7,7 +7,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-image: linear-gradient(45deg, rgba(138, 32, 0, 0.479), rgba(47, 1, 131, 0.404), rgba(1, 21, 131, 0.404));
+    background-image: linear-gradient(45deg, rgba(177, 47, 7, 0.349), rgba(71, 12, 182, 0.527));
     background-attachment: fixed;
 }
 
@@ -24,7 +24,7 @@ button{
 }
 
 nav > button:hover {
-    background-color: rgba(1, 21, 131, 0.404);
+    background-color: rgba(72, 12, 182, 0.438);
     border-radius: 5px;
 }
 
@@ -36,8 +36,14 @@ header{
 h1 {
     text-align: center;
     color: #290036;
-    margin: 22px auto 40px auto;
+    margin: 22px auto 5px auto;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.233);
+}
+
+h2#title {
+    text-align: center;
+    margin: 5px auto 40px auto;
+    color: #290036;
 }
 
 nav{
@@ -54,16 +60,21 @@ nav > a {
 }
 
 nav > a:hover {
-    background-color:  rgba(187, 44, 1, 0.267);
+    background-color: rgba(72, 12, 182, 0.144);
     border-radius: 10px;
 }
 
 main{
-    padding: 0px 30px 30px 30px;
-    margin: auto 60px auto 60px;
-    border: 3px solid darkblue;
+    display: block;
+    padding: 20px;
+    margin: auto;
+    border: 3px solid rgba(194, 194, 206, 0.534);
+
+    min-width: 400px;
+    max-width: 1500px;
 }
-h2 {
+
+h2, h3 {
     color: #4e1d6d;
 
 }
@@ -73,7 +84,7 @@ h2 {
     min-width: 350px;
     background-color: rgba(255, 255, 255, 0.37);
     border-radius: 10px;
-    margin: 30px 200px;
+    margin: 30px auto;
     padding: 20px;
     box-shadow: 2px 2px 20px 1px #0000004a;
 }
@@ -110,7 +121,7 @@ h3 {
 #skills{
     display: block;
     min-width: 350px;
-    margin: 30px 200px;
+    margin: 30px auto;
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.37);
     border-radius: 10px;
@@ -128,12 +139,12 @@ h3 {
 
 #projects{
     display: block;
-    min-width: 350px;
     margin: 30px auto;
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.37);
     border-radius: 10px;
     box-shadow: 2px 2px 20px 1px #0000004a;
+    min-width: 350px;
 }
 
 #projects > ul{
@@ -163,13 +174,14 @@ h3 {
 }
 
 #learning{
-    margin: 30px 200px;
+    display: block;
+    margin: 30px auto;
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.37);
     border-radius: 10px;
     box-shadow: 2px 2px 20px 1px #0000004a;
 
-    max-width: 750px;
+    min-width: 350px;
 }
 
 
@@ -183,14 +195,13 @@ h3 {
 }
 
 aside{
+    display: block;
     margin: 30px auto;
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.37);
     border-radius: 10px;
     box-shadow: 2px 2px 20px 1px #0000004a;
-    max-width: 400px;
-    
-
+    min-width: 350px;
 }
 
 aside > ul{
