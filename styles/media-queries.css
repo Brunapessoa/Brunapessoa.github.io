@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 760px) and (max-width: 992px) {
+    /* mid screens */
+
+    body {
+       background-color: rgb(49, 3, 109);
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+    /* big screens */
+    
+    body {
+        background-color: rgb(49, 3, 109);
+    }
+    
+    #burger {
+        display: none;
+    }
+
+    menu {
+        display: block;
+    }
+
+    li {
+        display: inline-block;
+    }
+    main {
+        width: 768px;
+    }

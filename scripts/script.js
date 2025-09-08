@@ -14,18 +14,18 @@ let coursesTxt = document.getElementById('coursesTxt')
 
 let footerTxt = document.getElementById('footerTxt')
 
-function updatePtbr(){
+function updatePtbr() {
     title.innerHTML = content.titlePtbr
-    
-    for (let elements of aboutMe){
+
+    for (let elements of aboutMe) {
         elements.innerHTML = content.aboutMePtBr
     }
-    
-    for (let elements of skills){
+
+    for (let elements of skills) {
         elements.innerHTML = content.skillsPtBr
     }
 
-    for (let elements of projects){
+    for (let elements of projects) {
         elements.innerHTML = content.projectsPtBr
     }
 
@@ -45,29 +45,29 @@ function updatePtbr(){
     footerTxt.innerHTML = content.footerPtBr
 }
 
-function updateEng(){
+function updateEng() {
     title.innerHTML = content.titleEng
-    
-    for (let elements of aboutMe){
+
+    for (let elements of aboutMe) {
         elements.innerHTML = content.aboutMeEng
     }
-    
-    for (let elements of skills){
+
+    for (let elements of skills) {
         elements.innerHTML = content.skillsEng
     }
-    
-    for (let elements of projects){
+
+    for (let elements of projects) {
         elements.innerHTML = content.projectsEng
     }
-    
+
     for (let elements of courses) {
         elements.innerHTML = content.coursesEng
     }
-    
+
     for (let elements of network) {
         elements.innerHTML = content.networkEng
     }
-    
+
     aboutTxt.innerHTML = content.aboutTxtEng
     projectsTxt.innerHTML = content.projectsTxtEng
     androidPage.innerHTML = content.androidPageEng
@@ -76,37 +76,39 @@ function updateEng(){
     footerTxt.innerHTML = content.footerEng
 }
 
-function updateNl(){
+function updateNl() {
     title.innerHTML = content.titleNl
 
-        for (let elements of aboutMe){
+    for (let elements of aboutMe) {
         elements.innerHTML = content.aboutMeNl
     }
-    
-    for (let elements of skills){
+
+    for (let elements of skills) {
         elements.innerHTML = content.skillsNl
     }
-    
-    for (let elements of projects){
+
+    for (let elements of projects) {
         elements.innerHTML = content.projectsNl
     }
-    
+
     for (let elements of courses) {
         elements.innerHTML = content.coursesNl
     }
-    
+
     for (let elements of network) {
         elements.innerHTML = content.networkNl
     }
-    
+
     aboutTxt.innerHTML = content.aboutTxtNl
     projectsTxt.innerHTML = content.projectsTxtNl
     androidPage.innerHTML = content.androidPageNl
     coursesTxt.innerHTML = content.coursesTxtNl
-    
+
     footerTxt.innerHTML = content.footerNl
 }
 
 window.updatePtbr = updatePtbr;
 window.updateEng = updateEng;
 window.updateNl = updateNl;
+
+

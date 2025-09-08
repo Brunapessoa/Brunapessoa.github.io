@@ -6,28 +6,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bruna Pessoa - Front-end Developer</title>
     <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/media-queries.css">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+    <script src="https://kit.fontawesome.com/f244d0bf89.js" crossorigin="anonymous"></script>
+
 </head>
 
-<body>
-    <nav id="bt-languages">
-        <button type="button" id="portugues-br" onclick="updatePtbr()"> &#x1F1E7&#x1F1F7 </button>
-        <button type="button" id="english" onclick="updateEng()"> &#x1F1EC&#x1F1E7 </button>
-        <button type="button" id="nederland" onclick="updateNl()"> &#x1F1F3&#x1F1F1 </button>
-    </nav>
+<body onresize="biggerScreen()">
     <header>
+        <nav id="bt-languages">
+            <button type="button" id="portugues-br" onclick="updatePtbr()"> &#x1F1E7&#x1F1F7 </button>
+            <button type="button" id="english" onclick="updateEng()"> &#x1F1EC&#x1F1E7 </button>
+            <button type="button" id="nederland" onclick="updateNl()"> &#x1F1F3&#x1F1F1 </button>
+        </nav>
         <h1>Bruna Pessoa</h1>
-            <h2 id="title">Front-end Software Developer</h2>
+        <h2 id="title">Front-end Software Developer</h2>
+
+
+        <span id="burger" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <menu id="menuItems">
+            <ul>
+                <li><a href="#about-container" class="aboutMe">About me</a></li>
+                <li><a href="#skills" class="skills">Skills</a></li>
+                <li><a href="#projects" class="projects">Projects</a></li>
+                <li><a href="#coursesId" class="courses">Courses</a></li>
+            </ul>
+        </menu>
     </header>
-    <nav>
-        <a href="#about-container" class="aboutMe">About me</a>
-        <a href="#skills" class="skills">Skills</a>
-        <a href="#projects" class="projects">Projects</a>
-        <a href="#learning" class="courses">Courses</a>
-        <a href="#network" class="network">Network</a>
-    </nav>
-    
+
     <main>
+        <div id="introduction">
+            <img src="images/main-foto.png" alt="profile-photo" width="150px">
+            <aside id="details">
+                <p>Adress: Eindhoven - Netherlands</p>
+                <p>E-mail: brunapessoa.bpm@gmail.com</p>
+                <p>Network:
+                    <a href="https://www.linkedin.com/in/bruna-pessoa-machado-dev" target="_blank" rel="external"
+                        alt="LinkedIn" class="mediaIcon"><i class="fa-brands fa-linkedin"></i></i></a>
+                    <a href="https://github.com/Brunapessoa" target="_blank" rel="external" alt="GitHub" class="mediaIcon"><i class="fa-brands fa-github"></i></a>
+                </p>
+            </aside>
+        </div>
         <section id="about-container">
             <h3 class="aboutMe">About me</h3>
             <div id="about-txt">
@@ -42,29 +64,20 @@
                 </p>
             </div>
         </section>
-        <div>
-            <img src="images/foto_principal.png" alt="profile-photo" width="250px" id="img-profile">
-        </div>
-        <aside id="network">
-            <h4 class="network">Network</h4>
-            <ul>
-                <li><a href="https://www.linkedin.com/in/bruna-pessoa-machado-dev" target="_blank" rel="external">
-                        LinkedIn</a></li>
-                <li><a href="https://github.com/Brunapessoa" target="_blank" rel="external">
-                        GitHub</a></li>
-            </ul>
-        </aside>
-
+        
         <section id="skills">
             <h3 class="skills">Skills</h3>
             <div>
                 <p>
-                    <abbr title="HTML 5"><img src="images/icons/html5-200.png" alt="html-logo" class="skillsIcons"></abbr>
+                    <abbr title="HTML 5"><img src="images/icons/html5-200.png" alt="html-logo"
+                            class="skillsIcons"></abbr>
                     <abbr title="CSS 3"><img src="images/icons/css3-200.png" alt="css-logo" class="skillsIcons"></abbr>
-                    <abbr title="JavaScript"><img src="images/icons/javascript.svg" alt="js-logo" class="skillsIcons"></abbr>
-                    <abbr title="Jest"><img src="images/icons/jest.png" alt="jest-logo" class="skillsIcons"></abbr>
-                    <abbr title="React"><img src="images/icons/react(1).png" alt="react-logo" class="skillsIcons"></abbr>
-                    <abbr title="Redux"><img src="images/icons/redux.png" alt="redux-logo" class="skillsIcons"></abbr>
+                    <abbr title="JavaScript"><img src="images/icons/javascript.svg" alt="js-logo"
+                            class="skillsIcons"></abbr>
+<!--                     <abbr title="Jest"><img src="images/icons/jest.png" alt="jest-logo" class="skillsIcons"></abbr>
+                    <abbr title="React"><img src="images/icons/react(1).png" alt="react-logo"
+                            class="skillsIcons"></abbr>
+                    <abbr title="Redux"><img src="images/icons/redux.png" alt="redux-logo" class="skillsIcons"></abbr> -->
                 </p>
             </div>
         </section>
@@ -72,50 +85,45 @@
         <section id="projects">
             <h3 class="projects">Projects</h3>
             <p id="projectsTxt">You can acess my project's pages:</p>
-            <ul type="none">
+            <ul type="none" id="projectList">
                 <li class="project-card">
-                        <!-- para adicionar os projetos assim, precisa fazer o github pages no projeto publico -->
-                        <a href="https://brunapessoa.github.io/Android-page-project/" target="_blank"><img
-                                src="images/projects/android-page.png" alt="android-page" width="250px"><span
-                                class="name-project">
-                                <p>Android Page</p></a>
-                                <p>Technologies: HTML and CSS</p>
-                        </span>
-                        </a>
+                    <!-- para adicionar os projetos assim, precisa fazer o github pages no projeto publico -->
+                    <a href="https://brunapessoa.github.io/Android-page-project/" target="_blank"><img
+                            src="images/projects/android-page.png" alt="android-page" width="250px" height="150px"><p
+                            class="name-project">
+                            Android Page</p>
+                    </a>
                 </li>
                 <li class="project-card">
-                        <a href="https://brunapessoa.github.io/cordel-project/" target="_blank"><img
-                                src="images/projects/image-teste.png" alt="cordel-project" width="250px"><span
-                                class="name-project">
-                                <p>Cordel Project</p></a>
-                                <p>Technologies: HTML and CSS</p>
+                    <a href="https://brunapessoa.github.io/cordel-project/" target="_blank"><img
+                            src="images/projects/cordelProject.png" alt="cordel-project" width="250px" height="150px"><p
+                            class="name-project">
+                            Cordel Project</p></a>
                 </li>
                 <li class="project-card">
-                        <a href="https://brunapessoa.github.io/login-project/" target="_blank"><img src="images/projects/Pasted image.png" alt="login-project"
-                                width="250px" height="150px"><span class="name-project">
-                                <p>Login Screen</p></a>
-                                <p>Technologies: HTML and CSS</p>
+                    <a href="https://brunapessoa.github.io/login-project/" target="_blank"><img
+                            src="images/projects/Pasted image.png" alt="login-project" width="250px"
+                            height="150px"><p class="name-project">
+                            Login Screen</p></a>
+                </li>
+<!--                 <li class="project-card">
+                    <a href="#" target="_blank"><img src="images/projects/image-teste.png" alt="teste"
+                            width="250px"><span class="name-project">
+                            <p>Project 4</p></a>
                 </li>
                 <li class="project-card">
-                        <a href="#" target="_blank"><img src="images/projects/image-teste.png" alt="teste"
-                                width="250px"><span class="name-project">
-                                <p>Project 4</p></a>
-                                <p>Technologies: HTML, CSS and JavaScript</p>
-                </li>
-                <li class="project-card">
-                        <a href="#" target="_blank"><img src="images/projects/image-teste.png" alt="teste"
-                                width="250px"><span class="name-project">
-                                <p>Project 5</p></a>
-                                <p>Technologies: HTML, CSS and JavaScript</p>
-                </li>
+                    <a href="#" target="_blank"><img src="images/projects/image-teste.png" alt="teste"
+                            width="250px"><span class="name-project">
+                            <p>Project 5</p></a>
+                </li> -->
             </ul>
         </section>
-        <section id="learning">
+        <section id="coursesId">
             <h3 class="courses">Courses</h3>
-            <ul id="coursesTxt">
+            <ul type="none" id="coursesTxt">
                 <li>Trybe - Technology School</li>
                 <li>Curso em Vídeo by Gustavo Guanabara:
-                    <ul>
+                    <ul type="none" id="liSecundary">
                         <li>Module: HTML5 & CSS3</li>
                         <li>Module: JavaScript</li>
                     </ul>
@@ -126,7 +134,8 @@
     <footer>
         <p id="footerTxt">Bruna Pessoa Machado - Software Developer</p>
     </footer>
-    <script type="module" src="script.js"></script>
+    <script type="module" src="scripts/script.js"></script>
+    <script src="scripts/menu.js"></script>
 </body>
 
 </html>
