@@ -18,6 +18,9 @@
 }
 
 body {
+    width: 100vw;
+    height: 100vh;
+    
     background-color: var(--mediumColor1);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 0.9em;
