@@ -118,11 +118,13 @@ menu > ul > li > a:hover{
 #introduction {
     display: flex;
     justify-content: space-evenly;
-    padding: 50px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+    padding-left: 8%;
 }
 
 #img-profile {
-    padding: 30px 10px;
     width: 150px;
     align-self: center;
 }
