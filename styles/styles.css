@@ -131,6 +131,9 @@ menu > ul > li > a:hover{
     font-size: 0.9em;
 }
 
+.mediaIcon {
+    color: var(--lightColor2);
+}
 .mediaIcon:visited {
     color: var(--lightColor2);
 
