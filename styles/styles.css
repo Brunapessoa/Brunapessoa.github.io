@@ -1,0 +1,237 @@
+@charset "UTF-8";
+
+
+:root {
+    --darkColor1: #221730f5;
+    --darkColor2: #2b124ce5;
+    --mediumColor1: #3b2940;
+    --mediumColor2: #854F6C;
+    --ligthColor1: #DFB6B2;
+    --lightColor2: #fbe4d8e8;
+}
+
+/* mobile first */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--mediumColor1);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.9em;
+    color: var(--lightColor2);
+    line-height: 1.6em;
+}
+
+header {
+    background-image: url(../images/header3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-attachment: fixed;
+    color: var(--lightColor2);
+     /* overlay branco */
+    background-color: rgba(255, 255, 255, 0.123);
+    background-blend-mode: overlay; /* ou multiply/overlay dependendo do efeito */
+
+    
+    display: flex;
+    flex-direction: column;
+}
+
+#bt-languages {
+    padding: 10px;
+    border: none;
+    align-self: flex-end;
+    border: #2B124C;
+}
+
+
+button{
+    padding: 3px 3px;
+    border: rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #fbe4d850; 
+    border-radius: 5px;
+}
+
+
+h1 {
+    padding: 90px 10px 20px 10px;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+}
+
+h2 {
+    padding-bottom: 90px;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+}
+
+.material-symbols-outlined { /* código da página do googlefonts na busca no burger */
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+#menu {
+    margin: 10px;
+    align-self: center;
+}
+
+#burger {
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+#burger:hover{
+    background-color: #fbe4d850;
+}
+
+
+menu > ul > li > a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color: var(--lightColor2);
+    text-align: center;
+}
+
+menu > ul > li > a:hover{
+    background-color: #fbe4d850;
+}
+
+
+#introduction {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+
+#img-profile {
+    padding: 30px;
+    width: 150px;
+    align-self: center;
+}
+
+#details {
+    align-self: center;
+    margin-left: 30px;
+    line-height: 1.5em;
+    font-size: 0.9em;
+}
+
+.mediaIcon:visited {
+    color: var(--lightColor2);
+
+}
+
+#about-container {
+    padding: 40px 30px 50px 40px;
+    text-align: justify;
+    box-shadow: 2px 2px 20px 1px #00000080;
+
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    padding: 15px 0px;
+}
+
+
+#skills{
+    display: block;
+    min-width: 350px;
+    margin: 30px auto;
+    padding: 40px 30px 50px 40px;
+}
+
+.skillsIcons{
+    padding: 0px 8px;
+    width: 45px;
+}
+
+#projects{
+    padding: 40px 30px 50px 40px;
+    line-height: 1.5em;
+    text-align: justify;
+    box-shadow: 2px 2px 20px 1px #00000080;
+}
+
+.project-txt > p{
+    margin: 0px 40px;
+    padding: 10px;
+}
+
+.project-card{
+    margin: 10px 20px;
+    padding: 10px 20px;
+    align-self: center;
+}
+
+
+.name-project {
+    text-align: center;
+    color: var(--lightColor2);
+    padding-top: 10px;
+}
+
+
+#projectList {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-card img {
+    border-radius: 5px;
+    box-shadow: 2px 1px 2px rgba(0, 0, 0, 0.548);
+}
+
+.project-card img:hover {
+    transition: 0.4s;
+    transform: scale(1.1);
+}
+
+.project-card a {
+    text-decoration: none;
+}
+
+#coursesId {
+    display: block;
+    min-width: 350px;
+    margin: 30px auto;
+    padding: 40px 30px 50px 40px;
+}
+
+.courses > ul > li {
+    list-style-type: '\2714\0020\0020'
+}
+
+
+ul#coursesTxt{
+    list-style-type: '\2714\0020\0020';
+    list-style-position: inside;
+}
+
+ul#liSecundary {
+    text-indent: 45px;
+}
+
+footer {
+    background-color:#332138;
+    padding: 8px;
+    text-align: center;
+    color: #fbe4d86e;
+}
