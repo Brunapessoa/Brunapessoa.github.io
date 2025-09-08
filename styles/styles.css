@@ -29,7 +29,7 @@ header {
     background-image: url(../images/header3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: left bottom;
+    background-position: right bottom;
     background-attachment: fixed;
     color: var(--lightColor2);
      /* overlay branco */
