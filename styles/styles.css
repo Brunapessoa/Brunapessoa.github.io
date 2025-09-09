@@ -114,8 +114,24 @@ menu > ul > li > a:hover{
     background-color: #fbe4d850;
 }
 
-
 #introduction {
+    display: grid;
+    padding: 40px 30px;;
+    
+    grid-template: auto / 40% 60%;
+    gap: 20px;
+    align-items: center;
+    justify-items: center;
+}
+
+
+#details {
+    line-height: 1.5em;
+    font-size: 0.9em;
+}
+
+
+/* #introduction {
     display: flex;
     justify-content: space-evenly;
     padding-top: 50px;
@@ -134,7 +150,7 @@ menu > ul > li > a:hover{
     margin-left: 10px;
     line-height: 1.5em;
     font-size: 0.9em;
-}
+} */
 
 .mediaIcon {
     color: var(--lightColor2);
@@ -145,12 +161,9 @@ menu > ul > li > a:hover{
 }
 
 #about-container {
-    padding: 40px 30px 50px 40px;
+    padding: 40px 30px;
     text-align: justify;
     box-shadow: 2px 2px 20px 1px #00000080;
-
-    display: flex;
-    flex-direction: column;
 }
 
 h3 {
@@ -162,7 +175,7 @@ h3 {
     display: block;
     min-width: 350px;
     margin: 30px auto;
-    padding: 40px 30px 50px 40px;
+    padding: 40px 30px;
 }
 
 .skillsIcons{
@@ -171,7 +184,7 @@ h3 {
 }
 
 #projects{
-    padding: 40px 30px 50px 40px;
+    padding: 40px 30px;
     line-height: 1.5em;
     text-align: justify;
     box-shadow: 2px 2px 20px 1px #00000080;
