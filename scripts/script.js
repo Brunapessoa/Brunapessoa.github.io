@@ -1,6 +1,7 @@
 import * as content from './content.js';
 
 let title = document.getElementById('title')
+let aside = document.getElementsByTagName('aside')
 let aboutMe = document.getElementsByClassName('aboutMe')
 let skills = document.getElementsByClassName('skills')
 let projects = document.getElementsByClassName('projects')
@@ -16,6 +17,10 @@ let footerTxt = document.getElementById('footerTxt')
 
 function updatePtbr() {
     title.innerHTML = content.titlePtbr
+
+    for (let elements of aside) {
+        elements.innerHTML = content.detailsPtBr
+    }
 
     for (let elements of aboutMe) {
         elements.innerHTML = content.aboutMePtBr
@@ -48,6 +53,9 @@ function updatePtbr() {
 function updateEng() {
     title.innerHTML = content.titleEng
 
+    for (let elements of aside) {
+        elements.innerHTML = content.detailsEng
+    }
     for (let elements of aboutMe) {
         elements.innerHTML = content.aboutMeEng
     }
@@ -79,6 +87,9 @@ function updateEng() {
 function updateNl() {
     title.innerHTML = content.titleNl
 
+        for (let elements of aside) {
+        elements.innerHTML = content.detailsNl
+    }
     for (let elements of aboutMe) {
         elements.innerHTML = content.aboutMeNl
     }

@@ -39,11 +39,15 @@
 
     <main>
         <div id="introduction">
-            <img src="images/main-foto.png" alt="profile-photo" width="150px">
+            <picture class="photo">
+                <source media="(max-width: 750px)" srcset="images/main-foto.png">
+                <source media="(max-width: 1050px)" srcset="../images/foto_principal.jpeg" width="250px" >
+                <img src="images/foto_principal.png" alt="profile-photo" width="150px" id="imgMid">
+            </picture>
             <aside id="details">
                 <p>Address: Eindhoven - Netherlands</p>
                 <p>E-mail: brunapessoa.bpm@gmail.com</p>
-                <p>Network:
+                <p>Network: 
                     <a href="https://www.linkedin.com/in/bruna-pessoa-machado-dev" target="_blank" rel="external"
                         alt="LinkedIn" class="mediaIcon"><i class="fa-brands fa-linkedin"></i></i></a>
                     <a href="https://github.com/Brunapessoa" target="_blank" rel="external" alt="GitHub" class="mediaIcon"><i class="fa-brands fa-github"></i></a>
@@ -121,7 +125,13 @@
         <section id="coursesId">
             <h3 class="courses">Courses</h3>
             <ul type="none" id="coursesTxt">
-                <li>Trybe - Technology School</li>
+                <li>Trybe - Technology School - Full Stack Bootcamp:
+                     <ul type="none" id="liSecundary">
+                        <li>Front-end: HTML5, CSS3, JavaScript, React, Jest, Redux</li>
+                        <li>Back-end: ---</li>
+                        <li>Data Science: ----</li>
+                    </ul>
+                </li>
                 <li>Curso em Vídeo by Gustavo Guanabara:
                     <ul type="none" id="liSecundary">
                         <li>Module: HTML5 & CSS3</li>
