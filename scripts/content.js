@@ -1,4 +1,4 @@
-export const titlePtbr = 'Desenvolvedora de Software Front-End'
+export const titlePtbr = 'Desenvolvedora de Software Front-End';
 
 export const aboutMePtBr = 'Sobre mim'
 export const skillsPtBr = 'Competências'
@@ -10,11 +10,13 @@ export const detailsPtBr = '<p>Endereço: Eindhoven - Países Baixos<p>E-mail: b
 
 export const aboutTxtPtBr = '<p>Sou brasileira, vivendo em Eindhoven desde abril de 2023. Durante esse período, tenho me dedicado a aprimorar meu inglês e recentemente comecei a estudar holandês para facilitar minha integração aos Países Baixos.</p><p>Atualmente estou estudando Desenvolvimento Web, aprendendo e aprimorando competências técnicas que me permitirão ingressar no mercado de tecnologia. Até o momento, estudei linguagens de programação e frameworks como HTML, CSS e JavaScript.</p>'
 
-export const projectsTxtPtBr = 'Você pode acessar os meus projetos:<p>'
+export const projectsTxtPtBr = 'Você pode acessar meus projetos:<p>'
 
 export const androidPagePtBr = 'Página Android'
+export const cordelProjectPtBr = 'Projeto Cordel'
+export const loginScreenPtBr = 'Tela de Login'
 
-export const coursesTxtPtBr = '<li>Análise e Desenvolvimento de Sistemas – Uniamérica<ul><li>Tecnólogo</li><li>Janeiro 2026 – Junho 2028 (cursando)</li><li>Trybe - Escola de Tecnologia</li><li>Curso em Vídeo - por Gustavo Guanabara:<ul><li>Módulo: HTML & CSS</li><li>Módulo: JavaScript</li></ul></li>'
+export const coursesTxtPtBr = '<ul id="coursesTxt"><li class="courseType">Análise e Desenvolvimento de Sistemas – Uniamérica<ul class="liSecundary"><li>Técnologo</li><li>Janeiro 2026 – Junho 2028 (cursando)</li></ul></li><li class="courseType">Trybe - Escola de Tecnologia - Curso Full Stack:<ul class="liSecundary"><li>Front-end: HTML5, CSS3, JavaScript, React, Jest, Redux</li><li>Setembro 2022 – Novembro 2023</li></ul></li><li class="courseType">Curso em Vídeo, por Gustavo Guanabara:<ul class="liSecundary"><li>Modulo: HTML5 & CSS3</li> <li>Modulo: JavaScript</li><li>Abril 2025 – Outubro 2025</li></ul></li></ul>'
 
 export const footerPtBr = 'Bruna Pessoa Machado - Desenvolvedora de Software'
 /* ====================================================== */
@@ -34,8 +36,11 @@ export const aboutTxtEng = "<p>I'm a Brazilian citizen, living in Eindhoven sinc
 export const projectsTxtEng = 'You can acess my projects`s  pages:'
 
 export const androidPageEng = 'Android Page'
+export const cordelProjectEng = 'Cordel Project'
+export const loginScreenEng = 'Login Screen'
 
-export const coursesTxtEng = '<li>Trybe - Technology School</li><li>Curso em Vídeo by Gustavo Guanabara:<ul><li>Module: HTML & CSS</li><li>Module: JavaScript</li></ul></li>'
+
+export const coursesTxtEng = '<ul id="coursesTxt"><li class="courseType">Systems Analysis and Development – Uniamérica College<ul class="liSecundary"><li>Technologist Degree (Higher Education)</li>              <li>January 2026 – June 2028 (expected)</li></ul></li><li class="courseType">Trybe - Technology School - Full Stack Bootcamp:<ul class="liSecundary"><li>Front-end: HTML5, CSS3, JavaScript, React, Jest, Redux</li><li>September 2022 – November 2023</li></ul></li><li class="courseType">Curso em Vídeo by Gustavo Guanabara:<ul class="liSecundary"><li>Module: HTML5 & CSS3</li><li>Module: JavaScript</li><li>April 2025 – October 2025</li></ul></li></ul>'
 
 export const footerEng = 'Bruna Pessoa Machado - Software Developer'
 
@@ -56,8 +61,10 @@ export const aboutTxtNl = '<p>Ik ben een Braziliaanse burger en woon sinds april
 export const projectsTxtNl = 'Je kunt de pagina`s van mijn projecten bekijken:'
 
 export const androidPageNl = 'Android-pagina'
+export const loginScreenNL = 'Inlogpagina'
+export const cordelProjectNl = 'Cordel Project (Brazilian Cordel Literature)'
 
-export const coursesTxtNl = '<li>Trybe - Technology School</li><li>Curso em Vídeo door Gustavo Guanabara:<ul><li>Module: HTML & CSS</li><li>Module: JavaScript</li></ul></li>';
+export const coursesTxtNl = '<ul id="coursesTxt"><li class="courseType">Systemenanalyse en Ontwikkeling – Uniamérica College<ul class="liSecundary"><li>HBO Technoloogopleiding </li><li>Januari 2026 – Juni 2028 (in uitvoering)</li></ul></li><li class="courseType">Trybe – Technology School – Full Stack Bootcamp<ul class="liSecundary"><li>Front-end: HTML5, CSS3, JavaScript, React, Jest, Redux</li><li>September 2022 – November 2023</li></ul></li><li class="courseType">Curso em Vídeo – Gustavo Guanabara<ul class="liSecundary"><li>Module: HTML5 & CSS3</li><li>Module: JavaScript</li><li>April 2025 – October 2025</li></ul></li></ul>';
 
 
 export const footerNl = 'Bruna Pessoa Machado – Softwareontwikkelaar';

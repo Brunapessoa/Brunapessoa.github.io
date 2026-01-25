@@ -11,6 +11,8 @@ let network = document.getElementsByClassName('network')
 let aboutTxt = document.getElementById('about-txt')
 let projectsTxt = document.getElementById('projectsTxt')
 let androidPage = document.getElementById('androidPage')
+let cordelProject = document.getElementById('cordelProject')
+let loginScreen = document.getElementById('loginScreen') 
 let coursesTxt = document.getElementById('coursesTxt')
 
 let footerTxt = document.getElementById('footerTxt')
@@ -45,6 +47,8 @@ function updatePtbr() {
     aboutTxt.innerHTML = content.aboutTxtPtBr
     projectsTxt.innerHTML = content.projectsTxtPtBr
     androidPage.innerHTML = content.androidPagePtBr
+    cordelProject.innerHTML = content.cordelProjectPtBr
+    loginScreen.innerHTML = content.loginScreenPtBr
     coursesTxt.innerHTML = content.coursesTxtPtBr
 
     footerTxt.innerHTML = content.footerPtBr
@@ -79,6 +83,8 @@ function updateEng() {
     aboutTxt.innerHTML = content.aboutTxtEng
     projectsTxt.innerHTML = content.projectsTxtEng
     androidPage.innerHTML = content.androidPageEng
+    cordelProject.innerHTML = content.cordelProjectEng
+    loginScreen.innerHTML = content.loginScreenEng
     coursesTxt.innerHTML = content.coursesTxtEng
 
     footerTxt.innerHTML = content.footerEng
@@ -113,6 +119,8 @@ function updateNl() {
     aboutTxt.innerHTML = content.aboutTxtNl
     projectsTxt.innerHTML = content.projectsTxtNl
     androidPage.innerHTML = content.androidPageNl
+    cordelProject.innerHTML = content.cordelProjectNl
+    loginScreen.innerHTML = content.loginScreenNL
     coursesTxt.innerHTML = content.coursesTxtNl
 
     footerTxt.innerHTML = content.footerNl
