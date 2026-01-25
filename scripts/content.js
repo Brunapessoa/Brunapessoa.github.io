@@ -14,7 +14,7 @@ export const projectsTxtPtBr = 'Você pode acessar os meus projetos:<p>'
 
 export const androidPagePtBr = 'Página Android'
 
-export const coursesTxtPtBr = '<li>Trybe - Escola de Tecnologia</li><li>Curso em Vídeo - por Gustavo Guanabara:<ul><li>Módulo: HTML & CSS</li><li>Módulo: JavaScript</li></ul></li>'
+export const coursesTxtPtBr = '<li>Análise e Desenvolvimento de Sistemas – Uniamérica<ul><li>Tecnólogo</li><li>Janeiro 2026 – Junho 2028 (cursando)</li><li>Trybe - Escola de Tecnologia</li><li>Curso em Vídeo - por Gustavo Guanabara:<ul><li>Módulo: HTML & CSS</li><li>Módulo: JavaScript</li></ul></li>'
 
 export const footerPtBr = 'Bruna Pessoa Machado - Desenvolvedora de Software'
 /* ====================================================== */
@@ -57,7 +57,7 @@ export const projectsTxtNl = 'Je kunt de pagina`s van mijn projecten bekijken:'
 
 export const androidPageNl = 'Android-pagina'
 
-export const coursesTxtNl = '<li>Trybe - Technology School</li><li>Curso em Vídeo door Gustavo Guanabara:<ul><li>Module: HTML & CSS</li><li>Module: JavaScript</li></ul></li>'
+export const coursesTxtNl = '<li>Trybe - Technology School</li><li>Curso em Vídeo door Gustavo Guanabara:<ul><li>Module: HTML & CSS</li><li>Module: JavaScript</li></ul></li>';
 
 
-export const footerNl = 'Bruna Pessoa Machado – Softwareontwikkelaar'
+export const footerNl = 'Bruna Pessoa Machado – Softwareontwikkelaar';

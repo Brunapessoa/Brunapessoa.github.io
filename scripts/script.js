@@ -87,7 +87,7 @@ function updateEng() {
 function updateNl() {
     title.innerHTML = content.titleNl
 
-        for (let elements of aside) {
+    for (let elements of aside) {
         elements.innerHTML = content.detailsNl
     }
     for (let elements of aboutMe) {
