@@ -4,15 +4,11 @@
 
 :root {
     --mainDarkColor: #1F2233;
-
     --secondDarkColor: #25273E;
     --colorDetail: #fc5c57d5;
-
     --fontColor: #effbd8e8;
     --fontColor2: #fbe4d86e;
-
     --hoverColor: #fbe4d82b;
-
 }
 
 * {
@@ -47,7 +43,6 @@ header {
     align-self: flex-end;
     border: #d2c8de;
 }
-
 
 button {
     padding: 3px 3px;
@@ -122,7 +117,6 @@ menu>ul>li>a:hover {
     display: grid;
     margin: 30px auto;
     padding: 40px 30px;
-    ;
 
     grid-template: auto / 40% 60%;
     gap: 20px;
