@@ -164,6 +164,13 @@ h3 {
     width: 45px;
 }
 
+#jsIcon {
+    width: 48px;
+}
+#reactIcon {
+    width: 50px;
+}
+
 #projects {
     background-color: var(--secondDarkColor);
 
