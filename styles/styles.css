@@ -36,6 +36,7 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: var(--fontColor);
   line-height: 1.6em;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.9);
 }
 
 header {
@@ -105,6 +106,7 @@ menu {
 
   overflow: hidden;
   transition: width 0.3s ease;
+  border-radius: 5px;
 }
 
 p,
@@ -127,13 +129,13 @@ menu > ul > li > a:hover {
 h1 {
   padding: 90px 10px 20px 10px;
   text-align: center;
-  text-shadow: 2px 2px 2px black;
+  text-shadow: 2px 2px 2px black !important;
 }
 
 h2 {
   padding-bottom: 90px;
   text-align: center;
-  text-shadow: 2px 2px 2px black;
+  text-shadow: 2px 2px 2px black !important;
 }
 
 img {
@@ -175,11 +177,13 @@ h3 {
 }
 
 #skills {
+  margin-top: 20px;
   display: block;
   min-width: 350px;
 }
 
 .skillsIcons {
+  margin-top: 5px;
   padding: 0px 8px;
   width: 45px;
 }
