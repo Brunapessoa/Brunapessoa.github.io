@@ -17,16 +17,12 @@
 
 <body onresize="biggerScreen()">
     <header>
+        <span id="burger" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
         <nav id="bt-languages">
             <button type="button" id="portugues-br" onclick="updatePtbr()"> &#x1F1E7&#x1F1F7 </button>
             <button type="button" id="english" onclick="updateEng()"> &#x1F1EC&#x1F1E7 </button>
             <button type="button" id="nederland" onclick="updateNl()"> &#x1F1F3&#x1F1F1 </button>
         </nav>
-        <h1>Bruna Pessoa</h1>
-        <h2 id="title">Front-end Software Developer</h2>
-
-
-        <span id="burger" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
         <menu id="menuItems">
             <ul>
                 <li><a href="#about-container" class="aboutMe">About me</a></li>
@@ -36,25 +32,29 @@
             </ul>
         </menu>
     </header>
-
     <main>
-        <div id="introduction">
-            <picture class="photo">
-                <source media="(max-width: 750px)" srcset="images/square-2-2.jpg" width="150px">
-                <source media="(max-width: 1050px)" srcset="../images/square-2-2.jpg" width="250px">
-                <img src="images/square-2-2.jpg"profile-photo" width="300px" id="imgMid">
-            </picture>
-            <aside id="details">
-                <p>Address: Eindhoven - Netherlands</p>
-                <p>E-mail: brunapessoa.bpm@gmail.com</p>
-                <p>Network:
-                    <a href="https://www.linkedin.com/in/bruna-pessoa-machado-dev" target="_blank" rel="external"
-                        alt="LinkedIn" class="mediaIcon"><i class="fa-brands fa-linkedin"></i></i></a>
-                    <a href="https://github.com/Brunapessoa" target="_blank" rel="external" alt="GitHub"
-                        class="mediaIcon"><i class="fa-brands fa-github"></i></a>
-                </p>
-            </aside>
-        </div>
+        <section>
+            <h1>Bruna Pessoa</h1>
+            <h2 id="title">Front-end Software Developer</h2>
+        
+            <div id="intro">
+                <picture class="photo">
+                    <source media="(max-width: 750px)" srcset="images/square-2-2.jpg" width="150px">
+                    <source media="(max-width: 1050px)" srcset="../images/square-2-2.jpg" width="250px">
+                    <img src="images/square-2-2.jpg" alt="profile-photo" width="300px" id="imgMid">
+                </picture>
+                <aside id="details">
+                    <p>Address: Eindhoven - Netherlands</p>
+                    <p>E-mail: brunapessoa.bpm@gmail.com</p>
+                    <p>Network:
+                        <a href="https://www.linkedin.com/in/bruna-pessoa-machado-dev" target="_blank" rel="external"
+                            alt="LinkedIn" class="mediaIcon"><i class="fa-brands fa-linkedin"></i></i></a>
+                        <a href="https://github.com/Brunapessoa" target="_blank" rel="external" alt="GitHub"
+                            class="mediaIcon"><i class="fa-brands fa-github"></i></a>
+                    </p>
+                </aside>
+            </div>
+        </section>
         <section id="about-container">
             <h3 class="aboutMe">About me</h3>
             <div id="about-txt">
@@ -68,64 +68,59 @@
                     CSS, JavaScript and React have been studied.
                 </p>
             </div>
-        </section>
-
-        <section id="skills">
-            <h3 class="skills">Skills</h3>
-            <div>
-                <p>
-                    <abbr title="HTML 5"><img src="images/icons/html5-200.png" alt="html-logo"
-                            class="skillsIcons"></abbr>
-                    <abbr title="CSS 3"><img src="images/icons/css3-200.png" alt="css-logo" class="skillsIcons"></abbr>
-                    <abbr title="JavaScript"><img src="images/icons/javascript.svg" alt="js-logo"
-                            class="skillsIcons" id="jsIcon"></abbr>
-                    <abbr title="React"><img src="images/icons/react(1).png" alt="react-logo"
-                            class="skillsIcons" id="reactIcon"></abbr>
-                    <!--                     <abbr title="Jest"><img src="images/icons/jest.png" alt="jest-logo" class="skillsIcons"></abbr>
-                    <abbr title="React"><img src="images/icons/react(1).png" alt="react-logo"
-                            class="skillsIcons"></abbr>
-                    <abbr title="Redux"><img src="images/icons/redux.png" alt="redux-logo" class="skillsIcons"></abbr> -->
-                </p>
+            <br>
+            <div id="skills">
+               <h4 class="skills">Skills</h4>
+                <div>
+                    <p>
+                        <abbr title="HTML 5"><img src="images/icons/html5-200.png" alt="html-logo"
+                                class="skillsIcons"></abbr>
+                        <abbr title="CSS 3"><img src="images/icons/css3-200.png" alt="css-logo" class="skillsIcons"></abbr>
+                        <abbr title="JavaScript"><img src="images/icons/javascript.svg" alt="js-logo"
+                                class="skillsIcons" id="jsIcon"></abbr>
+                        <abbr title="React"><img src="images/icons/react(1).png" alt="react-logo"
+                                class="skillsIcons" id="reactIcon"></abbr>
+                    </p>
+                </div>
             </div>
         </section>
-
         <section id="projects">
             <h3 class="projects">Projects</h3>
             <p id="projectsTxt">You can access some of my project's pages:</p>
             <ul type="none" id="projectList">
-
                 <li class="project-card">
                     <a href="https://brunapessoa.github.io/b-plan-training/" target="_blank"><img
                             src="images/projects/plan-b-card.png" alt="login-project" width="250px" height="150px">
-                        <h4 class="name-project" id="loginScreen">
-                            Plan B Training</h4>
-                            <p>your own workout planner</p>
                     </a>
+                        <h4 class="name-project" id="loginScreen">Plan B Training - your own workout planner
+                        </h4>   
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci velit amet quo illo accusamus similique repellat iure earum aliquam libero obcaecati consequuntur natus, eos hic distinctio excepturi reprehenderit quaerat assumenda.</p>
+                </li>
+                <li class="project-card">
+                    <!-- para adicionar os projetos assim, precisa fazer o github pages no projeto publico -->
+                    <a href="https://brunapessoa.github.io/to-do-list-react/" target="_blank"><img
+                            src="images/projects/todolist-react.png" alt="to-do-list" width="250px" height="150px">
+                        </a>
+                        <h4 id="todoList" class="name-project">
+                            Tasks Management</h4>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, nihil? Praesentium cum tempora, architecto beatae harum earum maiores ea iste repellendus tenetur optio facere eum possimus numquam quia repellat enim.</p>
                 </li>
                 <li class="project-card">
                     <a href="https://brunapessoa.github.io/login-project/" target="_blank"><img
                             src="images/projects/Pasted image.png" alt="login-project" width="250px" height="150px">
+                        </a>
                         <h4 class="name-project" id="loginScreen">
-                            Login Screen</h4><br>
-                            <p></p>
-                    </a>
+                            Login Screen</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus at eius dignissimos deserunt atque totam debitis? Laborum saepe a enim. Eos atque, ipsa earum expedita ab officiis voluptate? Totam, molestias.</p>
                 </li>
                 <li class="project-card">
                     <!-- para adicionar os projetos assim, precisa fazer o github pages no projeto publico -->
                     <a href="https://brunapessoa.github.io/Android-page-project/" target="_blank"><img
                             src="images/projects/android-page.png" alt="android-page" width="250px" height="150px">
+                        </a>
                         <h4 id="androidPage" class="name-project">
                             Android Page</h4>
-                    </a>
-                </li>
-
-
-                <!--       <li class="project-card">
-                                <a href="#" target="_blank"><img src="images/projects/image-teste.png" alt="teste"
-                                        width="250px"><span class="name-project">
-                                        <p>Project 5</p></a>
-                            </li> -->
-                </a>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, autem nam! Sed saepe, molestias voluptas tenetur cupiditate ex doloribus nulla? Autem, saepe officia! Voluptate dolore eum excepturi sapiente, sit ad?</p>
                 </li>
             </ul>
         </section>
@@ -143,19 +138,10 @@
 
                 <li class="courseType">Trybe - Technology School - Full Stack Bootcamp:
                     <ul class="liSecundary">
-                        <li>Front-end: HTML5, CSS3, JavaScript, React, Jest, Redux</li>
+                        <li>Front-end: HTML5, CSS3, JavaScript, React, Jest</li>
                         <li>September 2022 – November 2023</li>
                     </ul>
                 </li>
-
-                <li class="courseType">Curso em Vídeo by Gustavo Guanabara:
-                    <ul class="liSecundary">
-                        <li>Module: HTML5 & CSS3</li>
-                        <li>Module: JavaScript</li>
-                        <li>April 2025 – October 2025</li>
-                    </ul>
-                </li>
-
             </ul>
         </section>
     </main>

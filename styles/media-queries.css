@@ -1,171 +1,167 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 760px) and (max-width: 992px) {
-    /* mid screens */
+  /* mid screens */
 
-    header {
-        display: flex;
-        flex-direction: column;
-    }
+  main {
+    margin: auto;
+    background-size: 100% 25%;
+  }
 
-    main {
-        margin: auto;
-    }
+  p,
+  li {
+    font-size: 1em;
+  }
 
-    p,
-    li {
-        font-size: 1em;
-    }
+  #introduction {
+    display: grid;
+    margin: 80px;
+    padding: 40px 30px;
 
-    #introduction {
-        display: grid;
-        margin: 80px;
-        padding: 40px 30px;
+    grid-template: auto / 40% 60%;
+    gap: 20px;
+    align-items: center;
+    justify-items: center;
+  }
 
-        grid-template: auto / 40% 60%;
-        gap: 20px;
-        align-items: center;
-        justify-items: center;
-    }
+  #details {
+    line-height: 1.7em;
+    font-size: 1em;
+  }
 
-    #details {
-        line-height: 1.7em;
-        font-size: 1em;
-    }
+  .photo > #imgMid {
+    border-radius: 10px;
+  }
 
-    .photo>#imgMid {
-        border-radius: 10px;
-    }
+  #about-container {
+    margin: 30px;
+    border-radius: 10px;
+  }
 
-    #about-container {
-        margin: 30px;
-        border-radius: 10px;
-    }
+  #skills {
+    margin: 30px;
+  }
 
-    #skills {
-        margin: 30px;
-    }
+  #projects {
+    margin: 30px;
+    border-radius: 10px;
+  }
 
-    #projects {
-        margin: 30px;
-        border-radius: 10px;
-    }
+  #projectList {
+    margin-top: 30px;
 
-    #projectList {
-        margin-top: 30px;
+    display: grid;
+    grid-template: auto auto / auto auto;
+    gap: 10px;
+    flex-direction: column;
+    justify-items: center;
+  }
 
-        display: grid;
-        grid-template: auto auto / auto auto;
-        gap: 10px;
-        flex-direction: column;
-        justify-items: center;
-    }
-
-    #coursesId {
-        margin: 30px;
-    }
+  #coursesId {
+    margin: 30px;
+  }
 }
-
 
 @media screen and (min-width: 993px) {
-    /* big screens */
+  /* big screens */
 
-    header {
-        display: flex;
-        flex-direction: column;
-    }
+  header {
+    display: flex;
+    flex-direction: column;
+  }
 
-    main {
-        margin: auto;
-        width: 1050px;
-    }
+  #intro {
+    margin: 0px auto;
+    width: auto;
+  }
+  main {
+    margin: auto;
+    background-size: 100% 25%;
+  }
 
+  #burger {
+    display: none;
+  }
 
-    #burger {
-        display: none;
-    }
+  menu {
+    margin: 0px auto;
+    text-align: center;
+  }
 
-    menu {
-        text-align: center;
-        border-radius: 25px;
-    }
+  li {
+    display: inline-block;
+    margin: 0px 20px;
+  }
 
-    li {
-        display: inline-block;
-        margin: 0px 20px;
-    }
+  p,
+  li {
+    font-size: 1em;
+  }
 
-    p,
-    li {
-        font-size: 1em;
-    }
+  #introduction {
+    display: grid;
+    margin: 80px;
+    padding: 40px 30px;
 
-    #introduction {
-        display: grid;
-        margin: 80px;
-        padding: 40px 30px;
+    grid-template: auto / 40% 60%;
+    gap: 20px;
+    align-items: center;
+    justify-items: center;
+  }
 
-        grid-template: auto / 40% 60%;
-        gap: 20px;
-        align-items: center;
-        justify-items: center;
-    }
+  #details {
+    line-height: 1.7em;
+    font-size: 1em;
+  }
 
-    #details {
-        line-height: 1.7em;
-        font-size: 1em;
-    }
+  .photo > #imgMid {
+    border-radius: 10px;
+  }
 
-    .photo>#imgMid {
-        border-radius: 10px;
-    }
+  #about-container {
+    margin: 30px;
+    border-radius: 10px;
+  }
 
-    #about-container {
-        margin: 30px;
-        border-radius: 10px;
-    }
+  #skills {
+    margin: 30px;
+  }
 
-    #skills {
-        margin: 30px;
-    }
+  #projects {
+    margin: 30px;
+    border-radius: 10px;
+  }
 
-    #projects {
-        margin: 30px;
-        border-radius: 10px;
-    }
+  #projectList {
+    margin-top: 30px;
 
-    #projectList {
-        margin-top: 30px;
+    display: grid;
+    grid-template: auto auto / auto auto;
+    gap: 10px;
+    flex-direction: column;
+    justify-items: center;
+  }
 
-        display: grid;
-        grid-template: auto auto / auto auto;
-        gap: 10px;
-        flex-direction: column;
-        justify-items: center;
-    }
+  .project-card img {
+    width: 350px;
+    height: 230px;
+  }
 
-    .project-card img {
-        width: 350px;
-        height: 230px;
+  #coursesId {
+    max-width: 900px;
+    margin: 30px;
+    padding: 40px 30px 50px 40px;
+  }
 
-    }
-
-    #coursesId {
-        max-width: 900px;
-        margin: 30px;
-        padding: 40px 30px 50px 40px;
-    }
-    
-    .courseType {
+  .courseType {
     margin: 10px auto 30px 30px;
-}
+  }
 
-    ul.liSecundary {
-        display: block;
-    }
+  ul.liSecundary {
+    display: block;
+  }
 
-    ul.liSecundary li {
-        display: list-item;
-
-    }
+  ul.liSecundary li {
+    display: list-item;
+  }
 }
