@@ -37,7 +37,7 @@
   }
 
   #about-container {
-    margin: 30px;
+    margin: 40px 30px;
     border-radius: 10px;
   }
 
@@ -46,7 +46,7 @@
   }
 
   #projects {
-    margin: 30px;
+    margin: 40px 30px;
     border-radius: 10px;
   }
 
@@ -67,7 +67,7 @@
   }
 
   #coursesId {
-    margin: 30px;
+    margin: 40px 30px;
   }
 }
 
