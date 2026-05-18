@@ -164,7 +164,8 @@
   }
 
   .photo > #imgMid {
-    border-radius: 10px;
+    border-radius: 30px;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.5);
   }
 
   #about-container {
@@ -194,6 +195,11 @@
   .project-card img {
     width: 350px;
     height: 230px;
+  }
+
+  p,
+  li {
+    font-size: 1em;
   }
 
   #coursesId {

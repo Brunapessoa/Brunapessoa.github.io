@@ -138,7 +138,7 @@ h2 {
   text-shadow: 2px 2px 2px black !important;
 }
 
-img {
+.photo > #imgMid {
   border-radius: 10px;
 }
 
@@ -176,23 +176,19 @@ h3 {
   padding: 15px 0px;
 }
 
-#skills {
-  margin-top: 20px;
-  display: block;
-  min-width: 350px;
-}
-
 .skillsIcons {
   margin-top: 5px;
   padding: 0px 8px;
-  width: 45px;
+  width: 35px !important;
+  height: 25px !important;
+  box-shadow: none !important;
 }
 
 #jsIcon {
-  width: 48px;
+  width: 10px;
 }
 #reactIcon {
-  width: 50px;
+  width: 40px !important;
 }
 
 #projects {
