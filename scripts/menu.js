@@ -13,7 +13,10 @@ function clickMenu() {
 
 function biggerScreen() {
   if (window.innerWidth >= 992) {
-    menuItems.style.width = "50%";
+    menuItems.style.width = "auto";
+    document.addEventListener("clcick", function (event) {
+      if (window.innerWidth >= 992) return;
+    });
   } else {
     menuItems.style.width = "0";
   }
@@ -30,7 +33,12 @@ selectedLink.forEach(function (link) {
 });
 
 document.addEventListener("click", function (event) {
-  if (!menuItems.contains(event.target) && !burger.contains(event.target)) {
+  if (window.innerWidth >= 992) {
+    return;
+  } else if (
+    !menuItems.contains(event.target) &&
+    !burger.contains(event.target)
+  ) {
     menuItems.style.width = "0";
   }
 });

@@ -8,7 +8,7 @@
   }
 
   main {
-    margin: auto;
+    margin: 0 auto;
   }
 
   p,
@@ -75,16 +75,8 @@
 
   header {
     display: flex;
-    flex-direction: column;
-  }
-
-  #intro {
-    margin: 0px auto;
-    width: auto;
-  }
-  main {
-    margin: auto;
-    background-size: 100% 25%;
+    flex-direction: row-reverse;
+    justify-content: space-between;
   }
 
   #burger {
@@ -92,34 +84,83 @@
   }
 
   menu {
-    margin: 0px auto;
+    margin-top: 5px;
+    margin-left: 10px;
     text-align: center;
+    position: static;
+    width: fit-content;
+    background-color: #fc5c5700;
+    font-size: 1.3em;
+
+    overflow: visible;
   }
 
   li {
     display: inline-block;
-    margin: 0px 20px;
   }
 
-  p,
-  li {
-    font-size: 1em;
+  menu > ul > li > a {
+    margin-top: 5px;
+    padding: 5px 15px;
+    border-radius: 5px;
   }
 
-  #introduction {
+  #bt-languages {
+    font-size: 1.5em;
+    transform: scale(1.2);
+    margin-right: 15px;
+  }
+
+  h1 {
+    font-size: 2.5em;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  h3 {
+    font-size: 1.3em;
+  }
+
+  h4 {
+    font-size: 1.1em;
+  }
+
+  body {
+    background: linear-gradient(
+      160deg,
+      var(--colorDetail),
+      var(--mainDarkColor) 50%,
+      var(--mainDarkColor)
+    );
+
+    background-color: var(--mainDarkColor);
+    background-size: 100% 60%;
+    background-repeat: no-repeat;
+  }
+
+  main {
+    margin: 0px auto;
+    max-width: 1200px;
+    font-size: 1.2em;
+  }
+
+  #intro {
+    margin: 30px auto;
+    width: fit-content;
     display: grid;
-    margin: 80px;
     padding: 40px 30px;
 
     grid-template: auto / 40% 60%;
-    gap: 20px;
+    gap: 40px;
     align-items: center;
     justify-items: center;
   }
 
   #details {
     line-height: 1.7em;
-    font-size: 1em;
+    font-size: 1.1em;
   }
 
   .photo > #imgMid {
