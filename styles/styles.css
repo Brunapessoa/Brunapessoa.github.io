@@ -33,7 +33,7 @@ body {
   background-repeat: no-repeat;
   background-color: var(--mainDarkColor);
 
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'DM Sans', Verdana, Geneva, Tahoma, sans-serif;
   color: var(--fontColor);
   line-height: 1.6em;
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.9);
@@ -129,13 +129,23 @@ menu > ul > li > a:hover {
 h1 {
   padding: 90px 10px 20px 10px;
   text-align: center;
-  text-shadow: 2px 2px 2px black !important;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8) !important;
 }
 
 h2 {
-  padding-bottom: 90px;
+  padding-bottom: 20px;
   text-align: center;
   text-shadow: 2px 2px 2px black !important;
+}
+
+h2::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: var(--colorDetail);
+  margin: 15px auto 70px;
+  border-radius: 2px;
 }
 
 .photo > #imgMid {
@@ -246,6 +256,7 @@ h3 {
 .project-card a {
   text-decoration: none;
   display: block;
+  text-align: center;
 }
 
 .project-card p {
