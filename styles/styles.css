@@ -99,7 +99,7 @@ menu {
   align-self: center;
   position: absolute;
   top: 10px;
-  left: 35px;
+  left: 40px;
   width: 0;
   z-index: 100;
   padding-bottom: 5px;
@@ -230,6 +230,7 @@ h3 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  list-style: none;
 }
 
 .project-card img {
