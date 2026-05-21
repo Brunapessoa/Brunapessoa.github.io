@@ -3,16 +3,21 @@ import * as content from './content.js';
 let title = document.getElementById('title')
 let aside = document.getElementsByTagName('aside')
 let aboutMe = document.getElementsByClassName('aboutMe')
-let skills = document.getElementsByClassName('skills')
 let projects = document.getElementsByClassName('projects')
 let courses = document.getElementsByClassName('courses')
 let network = document.getElementsByClassName('network')
 
 let aboutTxt = document.getElementById('about-txt')
+
 let projectsTxt = document.getElementById('projectsTxt')
-let androidPage = document.getElementById('androidPage')
-let cordelProject = document.getElementById('cordelProject')
+
+let planBDesc = document.getElementById('planBDesc')
+let tasksDesc = document.getElementById('tasksDesc')
 let loginScreen = document.getElementById('loginScreen') 
+let loginDesc = document.getElementById('loginDesc')
+let androidPage = document.getElementById('androidPage')
+let androidDesc = document.getElementById('androidDesc')
+
 let coursesTxt = document.getElementById('coursesTxt')
 
 let footerTxt = document.getElementById('footerTxt')
@@ -28,10 +33,6 @@ function updatePtbr() {
         elements.innerHTML = content.aboutMePtBr
     }
 
-    for (let elements of skills) {
-        elements.innerHTML = content.skillsPtBr
-    }
-
     for (let elements of projects) {
         elements.innerHTML = content.projectsPtBr
     }
@@ -45,13 +46,20 @@ function updatePtbr() {
     }
 
     aboutTxt.innerHTML = content.aboutTxtPtBr
+   
     projectsTxt.innerHTML = content.projectsTxtPtBr
-    androidPage.innerHTML = content.androidPagePtBr
-    cordelProject.innerHTML = content.cordelProjectPtBr
+    
+    planBDesc.innerHTML = content.planBDescPtBr
+    tasksDesc.innerHTML = content.tasksDescPtBr
     loginScreen.innerHTML = content.loginScreenPtBr
+    loginDesc.innerHTML = content.loginDescPtBr
+    androidPage.innerHTML = content.androidPagePtBr
+    androidDesc.innerHTML = content.androidDescPtBr    
+    
     coursesTxt.innerHTML = content.coursesTxtPtBr
 
     footerTxt.innerHTML = content.footerPtBr
+
 }
 
 function updateEng() {
@@ -62,10 +70,6 @@ function updateEng() {
     }
     for (let elements of aboutMe) {
         elements.innerHTML = content.aboutMeEng
-    }
-
-    for (let elements of skills) {
-        elements.innerHTML = content.skillsEng
     }
 
     for (let elements of projects) {
@@ -81,10 +85,16 @@ function updateEng() {
     }
 
     aboutTxt.innerHTML = content.aboutTxtEng
+    
     projectsTxt.innerHTML = content.projectsTxtEng
-    androidPage.innerHTML = content.androidPageEng
-    cordelProject.innerHTML = content.cordelProjectEng
+    
+    planBDesc.innerHTML = content.planBDescEng
+    tasksDesc.innerHTML = content.tasksDescEng
     loginScreen.innerHTML = content.loginScreenEng
+    loginDesc.innerHTML = content.loginDescEng
+    androidPage.innerHTML = content.androidPageEng
+    androidDesc.innerHTML = content.androidDescEng
+    
     coursesTxt.innerHTML = content.coursesTxtEng
 
     footerTxt.innerHTML = content.footerEng
@@ -100,10 +110,6 @@ function updateNl() {
         elements.innerHTML = content.aboutMeNl
     }
 
-    for (let elements of skills) {
-        elements.innerHTML = content.skillsNl
-    }
-
     for (let elements of projects) {
         elements.innerHTML = content.projectsNl
     }
@@ -117,10 +123,15 @@ function updateNl() {
     }
 
     aboutTxt.innerHTML = content.aboutTxtNl
+    
     projectsTxt.innerHTML = content.projectsTxtNl
-    androidPage.innerHTML = content.androidPageNl
-    cordelProject.innerHTML = content.cordelProjectNl
+    planBDesc.innerHTML = content.planBDescNL
+    tasksDesc.innerHTML = content.tasksDescNL
     loginScreen.innerHTML = content.loginScreenNL
+    loginDesc.innerHTML = content.loginDescNL
+    androidPage.innerHTML = content.androidPageNl
+    androidDesc.innerHTML = content.androidDescNL
+
     coursesTxt.innerHTML = content.coursesTxtNl
 
     footerTxt.innerHTML = content.footerNl
