@@ -58,14 +58,13 @@
             <h3 class="aboutMe">About me</h3>
             <div id="about-txt">
                 <p>
-                    I'm a Brazilian citizen, living in Eindhoven since April 2023. During this period, I have been
-                    dedicated to improving my English and have recently started studying Dutch to facilitate my
-                    integration into the Netherlands.
+                    Brazilian Front-end developer, focused on building modern, responsive, and user-centered interfaces.
                 </p>
-                <p>Currently studying <strong>Web Development</strong>, learning and improving hard skills that will
-                    enable me to enter the technology market. So far, programming languages and frameworks such as HTML,
-                    CSS, JavaScript and React have been studied.
+                <p>I develop functional and well-structured web applications using HTML, CSS, JavaScript, React, and
+                    Tailwind, with attention to detail.
                 </p>
+                <p>After 5 years in the legal field, I bring to tech strong analytical thinking, organization, and a
+                    problem-solving mindset.</p>
             </div>
         </section>
         <section id="projects">
@@ -75,40 +74,63 @@
                 <li class="project-card">
                     <a href="https://brunapessoa.github.io/b-plan-training/" target="_blank"><img
                             src="images/projects/plan-b-card.png" alt="login-project" width="250px" height="150px">
-                        <h4 class="name-project" id="loginScreen">Plan B Training - your own workout planner
+                        <h4 class="name-project" id="planB">Plan B Training - your own workout planner
                         </h4>
                     </a>
-                    <p> Technologies:
-                        <abbr title="HTML 5"><img src="images/icons/html5-200.png" alt="html-logo"
-                                class="skillsIcons"></abbr>
-                        <abbr title="CSS 3"><img src="images/icons/css3-200.png" alt="css-logo"
-                                class="skillsIcons"></abbr>
-                        <abbr title="JavaScript"><img src="images/icons/javascript.svg" alt="js-logo"
-                                class="skillsIcons" id="jsIcon"></abbr> <br>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci velit amet quo illo accusamus
-                        similique repellat iure earum aliquam libero obcaecati consequuntur natus, eos hic distinctio
-                        excepturi reprehenderit quaerat assumenda.
-                    </p>
+                    <div id="planBDesc">
+                        <p>
+                            <abbr title="HTML 5"><img src="images/icons/html5-200.png" alt="html-logo"
+                                    class="skillsIcons"></abbr>
+                            <abbr title="CSS 3"><img src="images/icons/css3-200.png" alt="css-logo"
+                                    class="skillsIcons"></abbr>
+                            <abbr title="JavaScript"><img src="images/icons/javascript.svg" alt="js-logo"
+                                    class="skillsIcons" id="jsIcon"></abbr>
+                        </p>
+                        <p> Client-side workout planner with 5 independent training sections (A–E). Each section
+                            features a
+                            dynamic exercise table with full CRUD functionality:
+                        </p>
+                        <ul>
+                            <li>Add exercises with name, weight, and reps</li>
+                            <li>Inline editing — clicking edit converts cells into editable fields</li>
+                            <li>Delete exercises from the table</li>
+                            <li>localStorage persistence — data is saved as JSON and survives page reload</li>
+                        </ul>
+                        <p>
+                            Built with HTML5, CSS3, and vanilla JavaScript (no frameworks).
+                        </p>
+                    </div>
                 </li>
                 <li class="project-card">
                     <!-- para adicionar os projetos assim, precisa fazer o github pages no projeto publico -->
                     <a href="https://brunapessoa.github.io/to-do-list-react/" target="_blank"><img
                             src="images/projects/todolist-react.png" alt="to-do-list" width="250px" height="150px">
-                        <h4 id="todoList" class="name-project">
+                        <h4 class="name-project id=" todoList">
                             Tasks Management</h4>
                     </a>
-                    <p>
-                        Technologies:
-                        <abbr title="HTML 5"><img src="images/icons/html5-200.png" alt="html-logo"
-                                class="skillsIcons"></abbr>
-                        <abbr title="JavaScript"><img src="images/icons/javascript.svg" alt="js-logo"
-                                class="skillsIcons" id="jsIcon"></abbr>
-                        <abbr title="React"><img src="images/icons/react(1).png" alt="react-logo" class="skillsIcons"
-                                id="reactIcon"></abbr> DICIONAR TAILWIND <br>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, nihil? Praesentium cum
-                        tempora, architecto beatae harum earum maiores ea iste repellendus tenetur optio facere eum
-                        possimus numquam quia repellat enim.
-                    </p>
+                    <div id="tasksDesc">
+                        <p>
+                            <abbr title="HTML 5"><img src="images/icons/html5-200.png" alt="html-logo"
+                                    class="skillsIcons"></abbr>
+                            <abbr title="JavaScript"><img src="images/icons/javascript.svg" alt="js-logo"
+                                    class="skillsIcons" id="jsIcon"></abbr>
+                            <abbr title="React"><img src="images/icons/react(1).png" alt="react-logo"
+                                    class="skillsIcons" id="reactIcon"></abbr>
+                            <abbr title="Tailwind"><img src="images/icons/tailwindcss.svg" alt="tailwind-logo"
+                                    class="skillsIcons" id="tailwindIcon"></abbr>
+                        </p>
+                        <p>Task management SPA built with React 19, React Router, and Tailwind CSS. Features
+                            implemented:</p>
+                        <ul>
+                            <li>Add tasks with title and description via a controlled form with basic validation</li>
+                            <li>Toggle completion — visual strikethrough feedback on completed tasks</li>
+                            <li>Delete tasks by ID</li>
+                            <li>Details page on a separate route, with task data passed via URL query params</li>
+                            <li>localStorage persistence using useEffect</li>
+                        </ul>
+                        <p>React hooks used: useState, useEffect, useNavigate, useSearchParams. State centralized in
+                            App.jsx with mutation functions passed down as props to child components.</p>
+                    </div>
                 </li>
                 <li class="project-card">
                     <a href="https://brunapessoa.github.io/login-project/" target="_blank"><img
@@ -116,33 +138,54 @@
                         <h4 class="name-project" id="loginScreen">
                             Login Screen</h4>
                     </a>
-                    <p> Technologies:<abbr title="HTML 5"><img src="images/icons/html5-200.png" alt="html-logo"
-                                class="skillsIcons"></abbr>
-                        <abbr title="CSS 3"><img src="images/icons/css3-200.png" alt="css-logo"
-                                class="skillsIcons"></abbr>
-                        <abbr title="JavaScript"><img src="images/icons/javascript.svg" alt="js-logo"
-                                class="skillsIcons" id="jsIcon"></abbr> <br>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus at eius dignissimos deserunt
-                        atque totam debitis? Laborum saepe a enim. Eos atque, ipsa earum expedita ab officiis voluptate?
-                        Totam, molestias.
-                    </p>
+                    <div id="loginDesc">
+                        <p>
+                            <abbr title="HTML 5"><img src="images/icons/html5-200.png" alt="html-logo"
+                                    class="skillsIcons"></abbr>
+                            <abbr title="CSS 3"><img src="images/icons/css3-200.png" alt="css-logo"
+                                    class="skillsIcons"></abbr>
+                            <abbr title="JavaScript"><img src="images/icons/javascript.svg" alt="js-logo"
+                                    class="skillsIcons" id="jsIcon"></abbr>
+                        </p>
+                        <p>Front-end login interface with a password recovery modal. Features implemented:</p>
+                        <ul>
+                            <li>Login form with native email validation and password field constraints (5–10 characters)
+                            </li>
+                            <li>Submit interception via preventDefault() with redirect to a new tab</li>
+                            <li>Password recovery modal dynamically injected into the DOM via JavaScrip</li>
+                            <li>Two-step flow in the modal — after submission, content is replaced with a confirmation
+                                message</li>
+                            <li>Responsive design with a dedicated media queries file</li>
+                        </ul>
+                        <p> Built with HTML5, CSS3, and vanilla JavaScript.</p>
+                    </div>
                 </li>
                 <li class="project-card">
-                    <!-- para adicionar os projetos assim, precisa fazer o github pages no projeto publico -->
                     <a href="https://brunapessoa.github.io/Android-page-project/" target="_blank"><img
                             src="images/projects/android-page.png" alt="android-page" width="250px" height="150px">
                         <h4 id="androidPage" class="name-project">
                             Android Page</h4>
                     </a>
-                    <p> Technologies:
-                        <abbr title="HTML 5"><img src="images/icons/html5-200.png" alt="html-logo"
-                                class="skillsIcons"></abbr>
-                        <abbr title="CSS 3"><img src="images/icons/css3-200.png" alt="css-logo"
-                                class="skillsIcons"></abbr> <br>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, autem nam! Sed saepe,
-                        molestias voluptas tenetur cupiditate ex doloribus nulla? Autem, saepe officia! Voluptate dolore
-                        eum excepturi sapiente, sit ad?
-                    </p>
+                    <div>
+                        <p>
+                            <abbr title="HTML 5"><img src="images/icons/html5-200.png" alt="html-logo"
+                                    class="skillsIcons"></abbr>
+                            <abbr title="CSS 3"><img src="images/icons/css3-200.png" alt="css-logo"
+                                    class="skillsIcons"></abbr>
+                        </p>
+                        <p>Static informational page about the history of the Android mascot, built exclusively with
+                            HTML5 and CSS3. Techniques implemented:</p>
+                        <ul>
+                            <li>Responsive images via &ltpicture> with
+                                &ltsource media&gt breakpoints</li>
+                            <li>@font-face for a custom font</li>
+                            <li>CSS custom properties for value reuse</li>
+                            <li>::after pseudo-element to inject icons on links</li>
+                            <li>Responsive YouTube embed using the percentage-based padding technique</li>
+                            <li>:hover pseudo-class for interactivity without JavaScript</li>
+                        </ul>
+                        <p>Built with HTML5 and CSS3 only — no JavaScript or frameworks.</p>
+                    </div>
                 </li>
             </ul>
         </section>

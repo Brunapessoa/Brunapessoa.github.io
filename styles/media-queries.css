@@ -90,12 +90,12 @@
     position: static;
     width: fit-content;
     background-color: #fc5c5700;
-    font-size: 1.3em;
+    font-size: 1.2em;
 
     overflow: visible;
   }
 
-  li {
+  menu li {
     display: inline-block;
   }
 
@@ -143,7 +143,7 @@
   main {
     margin: 0px auto;
     max-width: 1200px;
-    font-size: 1.2em;
+    font-size: 1.1em;
   }
 
   #intro {
@@ -159,7 +159,6 @@
   }
 
   #details {
-    line-height: 1.7em;
     font-size: 1.1em;
   }
 
@@ -185,11 +184,16 @@
   #projectList {
     margin-top: 30px;
 
-    display: grid;
-    grid-template: auto auto / auto auto;
-    gap: 10px;
-    flex-direction: column;
-    justify-items: center;
+    display: flex;
+    flex-direction:column;
+    gap: 60px;
+  }
+
+  .project-card {
+    display:flex;
+    flex-direction: row;
+    align-items: start;
+    gap: 60px;
   }
 
   .project-card img {

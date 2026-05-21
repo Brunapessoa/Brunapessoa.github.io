@@ -28,6 +28,7 @@ const selectedLink = document.querySelectorAll("#menuItems a");
 
 selectedLink.forEach(function (link) {
   link.addEventListener("click", function () {
+    if (window.innerWidth >= 992) return;
     menuItems.style.width = "0";
   });
 });
