@@ -129,7 +129,7 @@
 
   body {
     background: linear-gradient(
-      160deg,
+      150deg,
       var(--colorDetail),
       var(--mainDarkColor) 50%,
       var(--mainDarkColor)
