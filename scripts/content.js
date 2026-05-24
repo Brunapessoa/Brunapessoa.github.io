@@ -5,7 +5,7 @@ export const projectsPtBr = 'Projetos'
 export const coursesPtBr = 'Cursos'
 export const networkPtBr = 'Redes Sociais'
 
-export const detailsPtBr = '<p>Endereço: Eindhoven - Países Baixos<p>E-mail: brunapessoa.bpm@gmail.com<p>Redes sociais: <a href="https://www.linkedin.com/in/bruna-pessoa-machado-dev" target="_blank" rel="external" alt="LinkedIn" class="mediaIcon"><i class="fa-brands fa-linkedin"></i></i></a> <a href="https://github.com/Brunapessoa" target="_blank" rel="external" alt="GitHub" class="mediaIcon"><i class="fa-brands fa-github"></i></a></p>'
+export const detailsPtBr = '<p>Endereço: Eindhoven - Países Baixos</p><p>E-mail: brunapessoa.bpm@gmail.com</p>'
 
 export const aboutTxtPtBr = '<p>Desenvolvedora Front-end brasileira, focada na criação de interfaces modernas, responsivas e centradas no usuário.</p><p>Desenvolvo aplicações web funcionais e bem estruturadas utilizando HTML, CSS, JavaScript, React e Tailwind, com atenção aos detalhes.</p><p>Após 5 anos na área jurídica, levo para a tecnologia forte pensamento analítico, organização e uma mentalidade voltada para resolução de problemas.</p>'
 
@@ -33,7 +33,7 @@ export const projectsEng = 'Projects'
 export const coursesEng = 'Courses'
 export const networkEng = 'Network'
 
-export const detailsEng = '<p>Address: Eindhoven - Netherlands</p><p>E-mail: brunapessoa.bpm@gmail.com</p><p>Network: <a href="https://www.linkedin.com/in/bruna-pessoa-machado-dev" target="_blank" rel="external" alt="LinkedIn" class="mediaIcon"><i class="fa-brands fa-linkedin"></i></i></a> <a href="https://github.com/Brunapessoa" target="_blank" rel="external" alt="GitHub" class="mediaIcon"><i class="fa-brands fa-github"></i></a></p>'
+export const detailsEng = '<p>Address: Eindhoven - Netherlands</p><p>E-mail: brunapessoa.bpm@gmail.com</p>'
 
 export const aboutTxtEng = "<p>Brazilian Front-end developer, focused on building modern, responsive, and user-centered interfaces.</p><p>I develop functional and well-structured web applications using HTML, CSS, JavaScript, React, and Tailwind, with attention to detail.</p><p>After 5 years in the legal field, I bring to tech strong analytical thinking, organization, and a problem-solving mindset.</p>"
 
@@ -63,7 +63,7 @@ export const projectsNl = 'Projecten'
 export const coursesNl = 'Cursussen'
 export const networkNl = 'Netwerk'
 
-export const detailsNl = '<p>Adres: Eindhoven - Nederland</p><p>E-mail: brunapessoa.bpm@gmail.com</p><p>Netwerk: <a href="https://www.linkedin.com/in/bruna-pessoa-machado-dev" target="_blank" rel="external" alt="LinkedIn" class="mediaIcon"><i class="fa-brands fa-linkedin"></i></i></a> <a href="https://github.com/Brunapessoa" target="_blank" rel="external" alt="GitHub" class="mediaIcon"><i class="fa-brands fa-github"></i></a></p>'
+export const detailsNl = '<p>Adres: Eindhoven - Nederland</p><p>E-mail: brunapessoa.bpm@gmail.com</p>'
 
 export const aboutTxtNl = '<p>Braziliaanse front-end developer, gericht op het bouwen van moderne, responsieve en gebruiksvriendelijke interfaces.</p><p>Ik ontwikkel functionele en goed gestructureerde webapplicaties met HTML, CSS, JavaScript, React en Tailwind, met oog voor detail.</p><p>Na 5 jaar in de juridische sector breng ik naar de technologie sterk analytisch denkvermogen, organisatie en een probleemoplossende mindset.</p>'
 

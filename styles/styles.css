@@ -167,10 +167,24 @@ h2::after {
   line-height: 1.5em;
 }
 
+#photo-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+
+} 
+
+#social-links{
+  display: flex;
+  gap: 10px;
+  margin: 8px 10px;
+  padding: 5px 0px;
+  font-size: 1.5em;
+}
+
 .mediaIcon {
   color: var(--fontColor);
-  font-size: 1.1em;
-  margin: 2px;
 }
 
 .mediaIcon:visited {
