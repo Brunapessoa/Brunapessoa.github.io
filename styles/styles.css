@@ -165,11 +165,12 @@ h2::after {
 
 #details {
   line-height: 1.5em;
-  font-size: 0.9em;
 }
 
 .mediaIcon {
   color: var(--fontColor);
+  font-size: 1.1em;
+  margin: 2px;
 }
 
 .mediaIcon:visited {
