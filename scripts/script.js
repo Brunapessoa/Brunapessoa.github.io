@@ -7,6 +7,11 @@ let projects = document.getElementsByClassName('projects')
 let courses = document.getElementsByClassName('courses')
 let network = document.getElementsByClassName('network')
 
+let abbrPtbr = document.querySelector('#portugues-br abbr')
+let abbrEng = document.querySelector('#english abbr')
+let abbrNl = document.querySelector('#nederland abbr')
+
+
 let aboutTxt = document.getElementById('about-txt')
 
 let projectsTxt = document.getElementById('projectsTxt')
@@ -44,6 +49,10 @@ function updatePtbr() {
     for (let elements of network) {
         elements.innerHTML = content.networkPtBr
     }
+
+    abbrPtbr.title = 'Português'
+    abbrEng.title = 'Inglês'
+    abbrNl.title = 'Holandês'
 
     aboutTxt.innerHTML = content.aboutTxtPtBr
    
@@ -83,7 +92,11 @@ function updateEng() {
     for (let elements of network) {
         elements.innerHTML = content.networkEng
     }
-
+    
+    abbrPtbr.title = 'Portuguese'
+    abbrEng.title = 'English'
+    abbrNl.title = 'Dutch'
+    
     aboutTxt.innerHTML = content.aboutTxtEng
     
     projectsTxt.innerHTML = content.projectsTxtEng
@@ -121,6 +134,10 @@ function updateNl() {
     for (let elements of network) {
         elements.innerHTML = content.networkNl
     }
+
+    abbrPtbr.title = 'Portugees'
+    abbrEng.title = 'Engels'
+    abbrNl.title = 'Nederlands'
 
     aboutTxt.innerHTML = content.aboutTxtNl
     

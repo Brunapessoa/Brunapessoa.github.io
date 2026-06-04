@@ -54,6 +54,10 @@ header {
   border: #d2c8de;
 }
 
+abbr {
+  text-decoration: none;
+}
+
 button {
   padding: 3px 3px;
   border: rgba(255, 255, 255, 0);
