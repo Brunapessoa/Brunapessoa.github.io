@@ -40,7 +40,6 @@
             <ul>
                 <li><a href="#about-container" class="aboutMe">About me</a></li>
                 <li><a href="#projects" class="projects">Projects</a></li>
-                <li><a href="#coursesId" class="courses">Courses</a></li>
             </ul>
         </menu>
     </header>
@@ -116,6 +115,48 @@
                         <p>
                             Built with HTML5, CSS3, and vanilla JavaScript (no frameworks).
                         </p>
+                        <br>
+                        <p>This project is currently in closed testing on Google Play, pending approval for release on
+                            the Play Store. The entire process of packaging and configuring it as an Android app was
+                            carried out independently.</p>
+                        <p>Want to join the testing program? Send an email to <strong>brunapessoa.bpm@gmail.com</strong>
+                            with the
+                            subject <strong>"Plan B - Tester"</strong> and you'll be added to the tester list.</p>
+                    </div>
+                </li>
+
+                <li class="project-card">
+                    <!-- para adicionar os projetos assim, precisa fazer o github pages no projeto publico -->
+                    <a href="https://brunapessoa.github.io/weather/" target="_blank" rel="noopener noreferrer"><img
+                            src="images/projects/weatherly-2.png" alt="weather-app" width="250px" height="150px">
+                        <h4 class="name-project" id="weatherApp">
+                            Weatherly - Forecast you can trust</h4>
+                    </a>
+                    <div id="weatherDesc">
+                        <p>
+                            <abbr title="HTML 5"><img src="images/icons/html5-200.png" alt="html-logo"
+                                    class="skillsIcons"></abbr>
+                            <abbr title="JavaScript"><img src="images/icons/javascript.svg" alt="js-logo"
+                                    class="skillsIcons jsIcon"></abbr>
+                            <abbr title="React"><img src="images/icons/react(1).png" alt="react-logo"
+                                    class="skillsIcons reactIcon"></abbr>
+                            <abbr title="Tailwind"><img src="images/icons/tailwindcss.svg" alt="tailwind-logo"
+                                    class="skillsIcons tailwindIcon"></abbr>
+                        </p>
+                        <p>Weather forecast SPA built with React, Vite, and Tailwind CSS, consuming the WeatherAPI and
+                            Unsplash APIs. Features implemented:</p>
+                        <ul>
+                            <li>City search via a controlled form, supporting both click and Enter key submission</li>
+                            <li>Geolocation on page load through the native browser API, with manual search as a
+                                fallback</li>
+                            <li>Toggle between current weather and the 5-day forecast</li>
+                            <li>Dynamic background — fetches a photo of the searched city via the Unsplash API</li>
+                            <li>Loading and error states with custom messages and conditional rendering</li>
+                            <li>Forecast list laid out with CSS Grid, aligning date, max, and min temperature columns
+                            </li>
+                        </ul>
+                        <p>React hooks used: useState, useEffect. Styled with Tailwind CSS, including translucent
+                            overlays and text-shadow for contrast over background images.</p>
                     </div>
                 </li>
                 <li class="project-card">
@@ -178,53 +219,6 @@
                         </ul>
                         <p> Built with HTML5, CSS3, and vanilla JavaScript.</p>
                     </div>
-                </li>
-                <li class="project-card">
-                    <a href="https://brunapessoa.github.io/Android-page-project/" target="_blank"
-                        rel="noopener noreferrer"><img src="images/projects/android-page.png" alt="android-page"
-                            width="250px" height="150px">
-                        <h4 id="androidPage" class="name-project">
-                            Android Page</h4>
-                    </a>
-                    <div id="androidDesc">
-                        <p>
-                            <abbr title="HTML 5"><img src="images/icons/html5-200.png" alt="html-logo"
-                                    class="skillsIcons"></abbr>
-                            <abbr title="CSS 3"><img src="images/icons/css3-200.png" alt="css-logo"
-                                    class="skillsIcons"></abbr>
-                        </p>
-                        <p>Static informational page about the history of the Android mascot, built exclusively with
-                            HTML5 and CSS3. Techniques implemented:</p>
-                        <ul>
-                            <li>Responsive images via &ltpicture&gt with
-                                &ltsource media&gt breakpoints</li>
-                            <li>CSS custom properties for value reuse</li>
-                            <li>::after pseudo-element and :hover pseudo-class for link icons and interactivity without
-                                JavaScript</li>
-                            <li>Responsive YouTube embed using the percentage-based padding technique</li>
-                        </ul>
-                        <p>Built with HTML5 and CSS3 only — no JavaScript or frameworks.</p>
-                    </div>
-                </li>
-            </ul>
-        </section>
-        <section id="coursesId">
-            <h3 class="courses">Courses</h3>
-
-            <ul id="coursesTxt">
-
-                <li class="courseType">Systems Analysis and Development – Uniamérica College
-                    <ul class="liSecundary">
-                        <li>Technologist Degree (Higher Education)</li>
-                        <li>January 2026 – June 2028 (expected)</li>
-                    </ul>
-                </li>
-
-                <li class="courseType">Trybe - Technology School - Full Stack Bootcamp:
-                    <ul class="liSecundary">
-                        <li>Front-end: HTML5, CSS3, JavaScript, React, Jest</li>
-                        <li>September 2022 – November 2023</li>
-                    </ul>
                 </li>
             </ul>
         </section>

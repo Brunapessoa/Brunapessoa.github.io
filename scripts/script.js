@@ -4,8 +4,6 @@ let title = document.getElementById('title')
 let aside = document.getElementsByTagName('aside')
 let aboutMe = document.getElementsByClassName('aboutMe')
 let projects = document.getElementsByClassName('projects')
-let courses = document.getElementsByClassName('courses')
-let network = document.getElementsByClassName('network')
 
 let abbrPtbr = document.querySelector('#portugues-br abbr')
 let abbrEng = document.querySelector('#english abbr')
@@ -17,13 +15,11 @@ let aboutTxt = document.getElementById('about-txt')
 let projectsTxt = document.getElementById('projectsTxt')
 
 let planBDesc = document.getElementById('planBDesc')
+let weatherDesc = document.getElementById('weatherDesc')
 let tasksDesc = document.getElementById('tasksDesc')
 let loginScreen = document.getElementById('loginScreen') 
 let loginDesc = document.getElementById('loginDesc')
-let androidPage = document.getElementById('androidPage')
-let androidDesc = document.getElementById('androidDesc')
 
-let coursesTxt = document.getElementById('coursesTxt')
 
 let footerTxt = document.getElementById('footerTxt')
 
@@ -42,14 +38,6 @@ function updatePtbr() {
         elements.innerHTML = content.projectsPtBr
     }
 
-    for (let elements of courses) {
-        elements.innerHTML = content.coursesPtBr
-    }
-
-    for (let elements of network) {
-        elements.innerHTML = content.networkPtBr
-    }
-
     abbrPtbr.title = 'Português'
     abbrEng.title = 'Inglês'
     abbrNl.title = 'Holandês'
@@ -59,13 +47,11 @@ function updatePtbr() {
     projectsTxt.innerHTML = content.projectsTxtPtBr
     
     planBDesc.innerHTML = content.planBDescPtBr
+    weatherDesc.innerHTML = content.weatherPtBr
     tasksDesc.innerHTML = content.tasksDescPtBr
     loginScreen.innerHTML = content.loginScreenPtBr
     loginDesc.innerHTML = content.loginDescPtBr
-    androidPage.innerHTML = content.androidPagePtBr
-    androidDesc.innerHTML = content.androidDescPtBr    
-    
-    coursesTxt.innerHTML = content.coursesTxtPtBr
+
 
     footerTxt.innerHTML = content.footerPtBr
 
@@ -85,13 +71,6 @@ function updateEng() {
         elements.innerHTML = content.projectsEng
     }
 
-    for (let elements of courses) {
-        elements.innerHTML = content.coursesEng
-    }
-
-    for (let elements of network) {
-        elements.innerHTML = content.networkEng
-    }
     
     abbrPtbr.title = 'Portuguese'
     abbrEng.title = 'English'
@@ -102,13 +81,11 @@ function updateEng() {
     projectsTxt.innerHTML = content.projectsTxtEng
     
     planBDesc.innerHTML = content.planBDescEng
+    weatherDesc.innerHTML = content.weatherDescEng
     tasksDesc.innerHTML = content.tasksDescEng
     loginScreen.innerHTML = content.loginScreenEng
     loginDesc.innerHTML = content.loginDescEng
-    androidPage.innerHTML = content.androidPageEng
-    androidDesc.innerHTML = content.androidDescEng
-    
-    coursesTxt.innerHTML = content.coursesTxtEng
+
 
     footerTxt.innerHTML = content.footerEng
 }
@@ -127,14 +104,6 @@ function updateNl() {
         elements.innerHTML = content.projectsNl
     }
 
-    for (let elements of courses) {
-        elements.innerHTML = content.coursesNl
-    }
-
-    for (let elements of network) {
-        elements.innerHTML = content.networkNl
-    }
-
     abbrPtbr.title = 'Portugees'
     abbrEng.title = 'Engels'
     abbrNl.title = 'Nederlands'
@@ -143,13 +112,11 @@ function updateNl() {
     
     projectsTxt.innerHTML = content.projectsTxtNl
     planBDesc.innerHTML = content.planBDescNL
+    weatherDesc.innerHTML = content.weatherDescNL
     tasksDesc.innerHTML = content.tasksDescNL
     loginScreen.innerHTML = content.loginScreenNL
     loginDesc.innerHTML = content.loginDescNL
-    androidPage.innerHTML = content.androidPageNl
-    androidDesc.innerHTML = content.androidDescNL
 
-    coursesTxt.innerHTML = content.coursesTxtNl
 
     footerTxt.innerHTML = content.footerNl
 }

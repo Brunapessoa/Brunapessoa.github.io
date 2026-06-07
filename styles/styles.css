@@ -311,7 +311,7 @@ ul.liSecundary {
 
 footer {
   background-color: var(--secondDarkColor);
-  padding: 8px;
+  padding: 8px 8px 10px 8px;
   text-align: center;
   color: var(--fontColor2);
 }
