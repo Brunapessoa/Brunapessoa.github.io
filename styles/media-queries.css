@@ -201,6 +201,11 @@
     gap: 60px;
   }
 
+  video {
+    width: 350px;
+    height: 330px;
+
+  }
   .project-card {
     display:flex;
     flex-direction: row;
