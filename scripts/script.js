@@ -15,10 +15,9 @@ let aboutTxt = document.getElementById('about-txt')
 let projectsTxt = document.getElementById('projectsTxt')
 
 let planBDesc = document.getElementById('planBDesc')
+let recipesDesc = document.getElementById('recipesDesc')
 let weatherDesc = document.getElementById('weatherDesc')
 let tasksDesc = document.getElementById('tasksDesc')
-let loginScreen = document.getElementById('loginScreen') 
-let loginDesc = document.getElementById('loginDesc')
 
 
 let footerTxt = document.getElementById('footerTxt')
@@ -47,10 +46,9 @@ function updatePtbr() {
     projectsTxt.innerHTML = content.projectsTxtPtBr
     
     planBDesc.innerHTML = content.planBDescPtBr
+    recipesDesc.innerHTML = content.recipesDescPtBr
     weatherDesc.innerHTML = content.weatherPtBr
     tasksDesc.innerHTML = content.tasksDescPtBr
-    loginScreen.innerHTML = content.loginScreenPtBr
-    loginDesc.innerHTML = content.loginDescPtBr
 
 
     footerTxt.innerHTML = content.footerPtBr
@@ -81,10 +79,9 @@ function updateEng() {
     projectsTxt.innerHTML = content.projectsTxtEng
     
     planBDesc.innerHTML = content.planBDescEng
+    recipesDesc.innerHTML = content.recipesDescEng
     weatherDesc.innerHTML = content.weatherDescEng
     tasksDesc.innerHTML = content.tasksDescEng
-    loginScreen.innerHTML = content.loginScreenEng
-    loginDesc.innerHTML = content.loginDescEng
 
 
     footerTxt.innerHTML = content.footerEng
@@ -112,10 +109,9 @@ function updateNl() {
     
     projectsTxt.innerHTML = content.projectsTxtNl
     planBDesc.innerHTML = content.planBDescNL
+    recipesDesc.innerHTML = content.recipesDescNL
     weatherDesc.innerHTML = content.weatherDescNL
     tasksDesc.innerHTML = content.tasksDescNL
-    loginScreen.innerHTML = content.loginScreenNL
-    loginDesc.innerHTML = content.loginDescNL
 
 
     footerTxt.innerHTML = content.footerNl

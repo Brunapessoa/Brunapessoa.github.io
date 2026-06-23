@@ -220,6 +220,10 @@ h3 {
   width: 10px;
 }
 
+.tsIcon {
+  width: 37px !important;
+}
+
 .reactIcon {
   width: 40px !important;
 }

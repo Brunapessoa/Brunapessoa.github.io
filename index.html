@@ -124,6 +124,52 @@
                             subject <strong>"Plan B - Tester"</strong> and you'll be added to the tester list.</p>
                     </div>
                 </li>
+                <li class="project-card">
+                    <!-- para adicionar os projetos assim, precisa fazer o github pages no projeto publico -->
+                    <a href="https://brunapessoa.github.io/recipes/" target="_blank" rel="noopener noreferrer"><img
+                            src="images/projects/recipes.png" alt="recipes-app" width="250px" height="150px">
+                        <h4 class="name-project" id="recipesApp">
+                            Favorite Recipes</h4>
+                    </a>
+                    <div id="recipesDesc">
+                        <p>
+                            <abbr title="HTML 5"><img src="images/icons/html5-200.png" alt="html-logo"
+                                    class="skillsIcons"></abbr>
+                            <abbr title="JavaScript"><img src="images/icons/typescript-original.svg" alt="ts-logo"
+                                    class="skillsIcons tsIcon"></abbr>
+                            <abbr title="React"><img src="images/icons/react(1).png" alt="react-logo"
+                                    class="skillsIcons reactIcon"></abbr>
+                            <abbr title="Tailwind"><img src="images/icons/tailwindcss.svg" alt="tailwind-logo"
+                                    class="skillsIcons tailwindIcon"></abbr>
+                        </p>
+                        <p>Recipe search SPA built with React, Vite, TypeScript, and Tailwind CSS, consuming the
+                            TheMealDB API. Features implemented:</p>
+                        <ul>
+                            <li>
+                                Name-based recipe search via a controlled form Responsive card grid showing recipe name,
+                                image, area, and category
+                            </li>
+                            <li>
+                                Detail modal opened by state, showing full recipe info without losing scroll position on
+                                the list
+                            </li>
+                            <li>
+                                Dynamically rendered ingredients/measurements list, filtering out empty or null values
+                                from the API response
+                            </li>
+                            <li>
+                                Instructions split into readable paragraphs/steps instead of a single text block
+                            </li>
+                            <li>
+                                Loading and error states with custom messages and conditional rendering
+                            </li>
+                        </ul>
+                        <p>
+                            React hooks used: useState, useEffect. Styled with Tailwind CSS, including a custom
+                            background image, Google Fonts, and text-shadow for contrast over the photo background.
+                        </p>
+                    </div>
+                </li>
 
                 <li class="project-card">
                     <!-- para adicionar os projetos assim, precisa fazer o github pages no projeto publico -->
@@ -189,35 +235,6 @@
                         </ul>
                         <p>React hooks used: useState, useEffect, useNavigate, useSearchParams. State centralized in
                             App.jsx with mutation functions passed down as props to child components.</p>
-                    </div>
-                </li>
-                <li class="project-card">
-                    <a href="https://brunapessoa.github.io/login-project/" target="_blank"
-                        rel="noopener noreferrer"><img src="images/projects/Pasted image.png" alt="login-project"
-                            width="250px" height="150px">
-                        <h4 class="name-project" id="loginScreen">
-                            Login Screen</h4>
-                    </a>
-                    <div id="loginDesc">
-                        <p>
-                            <abbr title="HTML 5"><img src="images/icons/html5-200.png" alt="html-logo"
-                                    class="skillsIcons"></abbr>
-                            <abbr title="CSS 3"><img src="images/icons/css3-200.png" alt="css-logo"
-                                    class="skillsIcons"></abbr>
-                            <abbr title="JavaScript"><img src="images/icons/javascript.svg" alt="js-logo"
-                                    class="skillsIcons jsIcon"></abbr>
-                        </p>
-                        <p>Front-end login interface with a password recovery modal. Features implemented:</p>
-                        <ul>
-                            <li>Login form with native email validation and password field constraints (5–10 characters)
-                            </li>
-                            <li>Submit interception via preventDefault() with redirect to a new tab</li>
-                            <li>Password recovery modal dynamically injected into the DOM via JavaScript</li>
-                            <li>Two-step flow in the modal — after submission, content is replaced with a confirmation
-                                message</li>
-                            <li>Responsive design with a dedicated media queries file</li>
-                        </ul>
-                        <p> Built with HTML5, CSS3, and vanilla JavaScript.</p>
                     </div>
                 </li>
             </ul>
